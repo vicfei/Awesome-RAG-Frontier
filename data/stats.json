@@ -2,7 +2,7 @@
   "generated_at": "2026-09-27",
   "repos": {
     "Tencent/WeKnora": {
-      "stars": 30519,
+      "stars": 30520,
       "pushed_at": "2026-09-27",
       "archived": false
     },
@@ -91,13 +91,23 @@
       "pushed_at": "2026-01-27",
       "archived": false
     },
+    "microsoft/markitdown": {
+      "stars": 187274,
+      "pushed_at": "2026-09-21",
+      "archived": false
+    },
+    "firecrawl/anydoc": {
+      "stars": 22096,
+      "pushed_at": "2026-08-28",
+      "archived": false
+    },
     "opendatalab/MinerU": {
       "stars": 80717,
       "pushed_at": "2026-09-24",
       "archived": false
     },
     "DS4SD/docling": {
-      "stars": 68042,
+      "stars": 68043,
       "pushed_at": "2026-09-25",
       "archived": false
     },
@@ -147,7 +157,7 @@
       "archived": false
     },
     "datawhalechina/all-in-rag": {
-      "stars": 11445,
+      "stars": 11446,
       "pushed_at": "2026-09-04",
       "archived": false
     },

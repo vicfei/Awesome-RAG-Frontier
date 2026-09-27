@@ -118,6 +118,18 @@
       "zh": "nano-graphrag：极简可改的 GraphRAG 参考实现，读懂模式看它。"
     },
     {
+      "repo": "microsoft/markitdown",
+      "category": "parsing",
+      "en": "Microsoft's swiss-army converter: Office / PDF / audio / images → Markdown; the default glue in countless LLM ingestion scripts.",
+      "zh": "微软的多面手转换器：Office / PDF / 音频 / 图片 → Markdown，无数 LLM 摄取脚本的默认胶水。"
+    },
+    {
+      "repo": "firecrawl/anydoc",
+      "category": "parsing",
+      "en": "Firecrawl's high-fidelity document conversion engine (Word / PPT / Excel / EPUB / PDF → clean output); also the in-process parser inside WeKnora.",
+      "zh": "Firecrawl 的高保真文档转换引擎（Word / PPT / Excel / EPUB / PDF → 干净输出），也是 WeKnora 内置的解析器。"
+    },
+    {
       "repo": "opendatalab/MinerU",
       "category": "parsing",
       "en": "PDF/scans → markdown/JSON extraction that survives ugly layouts; the parsing layer many RAG stacks now default to.",
