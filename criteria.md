@@ -4,7 +4,7 @@ Rules, not vibes. If an entry stops qualifying, it gets flagged or dropped by th
 
 ## Projects (auto-tracked)
 
-1. **RAG-central.** Retrieval / knowledge grounding must be a core capability of the project, not an incidental feature of a broader platform. Borderline cases say so in their one-liner.
+1. **RAG-central.** Retrieval / knowledge grounding must be a core capability of the project, not an incidental feature of a broader platform. Borderline cases say so in their one-liner. For courses/tutorials: RAG must be a mainline module or the capstone — general LLM courses where RAG is one lesson among many don't qualify, however many stars they have (yes, that means 100k★ course repos get excluded on purpose).
 2. **Alive.** A commit or release within the last 6 months. Entries dormant 6–12 months get a ⚠️ marker in the table; past 12 months they leave the main tables.
 3. **Traction.** One of:
    - ≥ 300 stars, or

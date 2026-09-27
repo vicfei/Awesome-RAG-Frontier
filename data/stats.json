@@ -2,7 +2,7 @@
   "generated_at": "2026-09-27",
   "repos": {
     "Tencent/WeKnora": {
-      "stars": 30520,
+      "stars": 30523,
       "pushed_at": "2026-09-27",
       "archived": false
     },
@@ -92,7 +92,7 @@
       "archived": false
     },
     "microsoft/markitdown": {
-      "stars": 187274,
+      "stars": 187275,
       "pushed_at": "2026-09-21",
       "archived": false
     },
@@ -107,7 +107,7 @@
       "archived": false
     },
     "DS4SD/docling": {
-      "stars": 68043,
+      "stars": 68045,
       "pushed_at": "2026-09-25",
       "archived": false
     },
@@ -127,7 +127,7 @@
       "archived": false
     },
     "confident-ai/deepeval": {
-      "stars": 18464,
+      "stars": 18465,
       "pushed_at": "2026-09-25",
       "archived": false
     },
@@ -137,7 +137,7 @@
       "archived": false
     },
     "Arize-ai/phoenix": {
-      "stars": 11632,
+      "stars": 11633,
       "pushed_at": "2026-09-27",
       "archived": false
     },
@@ -159,6 +159,21 @@
     "datawhalechina/all-in-rag": {
       "stars": 11446,
       "pushed_at": "2026-09-04",
+      "archived": false
+    },
+    "datawhalechina/llm-universe": {
+      "stars": 14051,
+      "pushed_at": "2026-08-27",
+      "archived": false
+    },
+    "DataTalksClub/llm-zoomcamp": {
+      "stars": 7353,
+      "pushed_at": "2026-09-15",
+      "archived": false
+    },
+    "patchy631/ai-engineering-hub": {
+      "stars": 38049,
+      "pushed_at": "2026-09-10",
       "archived": false
     },
     "RUC-NLPIR/FlashRAG": {

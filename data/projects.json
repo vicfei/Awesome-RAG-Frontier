@@ -202,6 +202,24 @@
       "zh": "Datawhale 出品的 RAG 全栈教程书（中文，在线可读）。"
     },
     {
+      "repo": "datawhalechina/llm-universe",
+      "category": "research",
+      "en": "Datawhale's beginner Chinese course for LLM app development; the capstone is a full RAG knowledge-base assistant.",
+      "zh": "Datawhale 面向小白的中文大模型应用开发教程，压轴项目是完整的 RAG 知识库助手。"
+    },
+    {
+      "repo": "DataTalksClub/llm-zoomcamp",
+      "category": "research",
+      "en": "Free hands-on LLM engineering course; vector search, RAG, and RAG evaluation are the core modules.",
+      "zh": "免费实战课程，向量检索、RAG 与 RAG 评测构成核心模块。"
+    },
+    {
+      "repo": "patchy631/ai-engineering-hub",
+      "category": "research",
+      "en": "Notebook-heavy tutorial hub (LLM / RAG / agents); RAG is a headline pillar, not a footnote.",
+      "zh": "以 notebook 为主的教程库（LLM / RAG / Agent），RAG 是头牌主线之一而非点缀。"
+    },
+    {
       "repo": "RUC-NLPIR/FlashRAG",
       "category": "research",
       "en": "Modular RAG research toolkit: 40+ methods, reproducible benchmark runs.",
