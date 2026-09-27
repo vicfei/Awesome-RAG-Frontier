@@ -4,6 +4,7 @@
 
 **追踪检索增强生成（RAG）的前沿——真正在交付的论文、项目与技术。机器保证每周刷新，人工负责筛选。**
 
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![refreshed](https://img.shields.io/badge/refreshed-2026--09--27-2ea44f)](.github/workflows/refresh.yml)
 [![tracked](https://img.shields.io/badge/projects--tracked-45-blue)](data/projects.json)
@@ -23,6 +24,12 @@
 3. **同时覆盖两个生态。** 中英文 RAG 社区互相借鉴却很少互读。每个条目都带双语一句话点评。
 
 收录靠规则，不靠感觉：见 **[criteria.md](criteria.md)**。
+
+## 目录
+
+[为什么再做一个 RAG 清单？](#为什么再做一个-rag-清单) · [本月 RAG 动态](#news) · [项目](#项目) · [雷达](#radar) · [论文](#论文人工精选) · [基准](#值得了解的基准) · [参与贡献](#参与贡献) · [许可证](#许可证)
+
+<a id="news"></a>
 
 ## 🔥 本月 RAG 动态
 
@@ -116,6 +123,8 @@ _每周自动刷新，最近一次：2026-09-27。⚠️ = 已归档或沉寂超
 
 <!-- frontier:projects:end -->
 
+<a id="radar"></a>
+
 ## 📡 雷达 — 未达门槛观察线
 
 有前景但尚未达到收录门槛的条目——通常是搭乘可见浪潮的早期或单人项目（当前：**RAG × Agent Skills**，见[动态](news/2026-09.md)）。与其他部分一样自动刷新。
@@ -164,6 +173,9 @@ _未达门槛观察线 — 自动刷新于 2026-09-27。达到完整收录标准
 | 论文 | 为什么值得关注 |
 | --- | --- |
 | [PixelRAG](https://arxiv.org/abs/2606.28344) | 在渲染像素上检索——『解析可选』的 RAG。仓库已破 1 万 star。 |
+| [The Fellowship of the Query: Learning Retrieval Actions](https://arxiv.org/abs/2609.28653) | 用轨迹微调让小模型充当 RAG 的下一步动作控制器——分解、检索、改写、验证、停止。把 agentic RAG 命题端到端学出来。 |
+| [Return or Revise? Learning When Revision Helps QA](https://arxiv.org/abs/2609.30087) | 学习检索证据是否值得触发一次修订——返回还是修订的决策由训练习得，而非拍脑袋规则。 |
+| [VeriSpeak](https://arxiv.org/abs/2609.30227) | 面向语音事实核查的探针基准——RAG 的多模态前沿正走出纯文本。 |
 
 ## 值得了解的基准
 
@@ -179,6 +191,10 @@ _未达门槛观察线 — 自动刷新于 2026-09-27。达到完整收录标准
 欢迎——见 **[CONTRIBUTING.md](CONTRIBUTING.md)**。项目收录改 `data/projects.json`；论文收录改上面章节；动态线索提 issue。
 
 **利益披露：** 发起维护者是 [Tencent/WeKnora](https://github.com/Tencent/WeKnora) 的历史前 20 贡献者。WeKnora 按『知识库平台与产品』分类收录，与其他条目适用同一套公开标准——同样的门槛、同样的自动刷新、同样的除名规则。披露身份，而非隐瞒。
+
+## Star 历史
+
+[![Star History Chart](https://api.star-history.com/svg?repos=vicfei/Awesome-RAG-Frontier&type=Date)](https://star-history.com/#vicfei/Awesome-RAG-Frontier&Date)
 
 ## 许可证
 

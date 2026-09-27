@@ -4,6 +4,7 @@
 
 **Tracking the frontier of Retrieval-Augmented Generation — papers, projects, and techniques that actually ship. Refreshed weekly by automation, curated by humans.**
 
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![refreshed](https://img.shields.io/badge/refreshed-2026--09--27-2ea44f)](.github/workflows/refresh.yml)
 [![tracked](https://img.shields.io/badge/projects--tracked-45-blue)](data/projects.json)
@@ -23,6 +24,12 @@ Most "Awesome RAG" lists are paper catalogs that drift stale — a 30k-star RAG 
 3. **Both ecosystems.** The English and Chinese RAG communities build on each other but rarely read each other. Every entry carries a bilingual one-liner.
 
 Inclusion is rule-based, not vibes-based: see **[criteria.md](criteria.md)**.
+
+## Contents
+
+[Why another RAG list?](#why-another-rag-list) · [This Month in RAG](#news) · [Projects](#projects) · [Radar](#radar) · [Papers](#papers-curated) · [Benchmarks](#benchmarks-worth-knowing) · [Contributing](#contributing) · [License](#license)
+
+<a id="news"></a>
 
 ## 🔥 This Month in RAG
 
@@ -116,6 +123,8 @@ _Auto-refreshed weekly — last refresh 2026-09-27. ⚠️ = archived or dormant
 
 <!-- frontier:projects:end -->
 
+<a id="radar"></a>
+
 ## 📡 Radar — pre-threshold watchlist
 
 Promising entries that don't clear the bar yet — typically early-stage or single-maintainer projects riding a visible wave (right now: **RAG × Agent Skills**, see [news](news/2026-09.md)). Auto-refreshed like everything else.
@@ -164,6 +173,9 @@ Curated by hand; fed weekly by the arXiv digest drafts in [`news/_drafts/`](news
 | Paper | Why it's on the radar |
 | --- | --- |
 | [PixelRAG](https://arxiv.org/abs/2606.28344) | Retrieval over rendered pixels — parsing-optional RAG. Repo already crossed 10k stars. |
+| [The Fellowship of the Query: Learning Retrieval Actions](https://arxiv.org/abs/2609.28653) | Trajectory-fine-tunes small LMs as next-action controllers for RAG — decompose, search, reformulate, verify, stop. The agentic-RAG thesis, learned end to end. |
+| [Return or Revise? Learning When Revision Helps Retrieval-Augmented QA](https://arxiv.org/abs/2609.30087) | Learns whether retrieved evidence is worth a revision — the return-vs-revise decision, trained instead of heuristic. |
+| [VeriSpeak](https://arxiv.org/abs/2609.30227) | Probe benchmark for retrieval-augmented fact-checking over speech — RAG's multimodal frontier moves past text. |
 
 ## Benchmarks worth knowing
 
@@ -179,6 +191,10 @@ Curated by hand; fed weekly by the arXiv digest drafts in [`news/_drafts/`](news
 Yes please — **[CONTRIBUTING.md](CONTRIBUTING.md)**. Projects go in `data/projects.json`; papers go in the section above; news tips go in issues.
 
 **Disclosures:** the founding maintainer is a historical top-20 contributor to [Tencent/WeKnora](https://github.com/Tencent/WeKnora), which is listed under *Knowledge platforms & products* by the same criteria as everything else — same bar, same auto-refresh, same removal rules. Affiliation is disclosed, not hidden.
+
+## Star history
+
+[![Star History Chart](https://api.star-history.com/svg?repos=vicfei/Awesome-RAG-Frontier&type=Date)](https://star-history.com/#vicfei/Awesome-RAG-Frontier&Date)
 
 ## License
 
