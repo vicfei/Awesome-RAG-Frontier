@@ -1,0 +1,253 @@
+{
+  "categories": [
+    { "id": "kb-products", "title_en": "Knowledge platforms & products", "title_zh": "知识库平台与产品" },
+    { "id": "frameworks", "title_en": "Frameworks & engines", "title_zh": "框架与引擎" },
+    { "id": "graphrag", "title_en": "GraphRAG & knowledge graphs", "title_zh": "GraphRAG 与知识图谱" },
+    { "id": "parsing", "title_en": "Document parsing & multimodal ingestion", "title_zh": "文档解析与多模态摄取" },
+    { "id": "evaluation", "title_en": "Evaluation & observability", "title_zh": "评测与可观测性" },
+    { "id": "research", "title_en": "Research playgrounds & courses", "title_zh": "研究沙盒与课程" },
+    { "id": "collections", "title_en": "Peer lists we trust", "title_zh": "值得信任的同侪清单" }
+  ],
+  "items": [
+    {
+      "repo": "Tencent/WeKnora",
+      "category": "kb-products",
+      "en": "Tencent's open-source LLM knowledge platform: hybrid retrieval + rerank, parent-child chunking, GraphRAG, agent skills in sandboxes, self-maintaining wiki. Go, MIT.",
+      "zh": "腾讯开源的大模型知识库平台：混合检索+重排、父子分块、GraphRAG、沙箱内 Agent 技能、自维护 Wiki。Go 实现，MIT 协议。"
+    },
+    {
+      "repo": "infiniflow/ragflow",
+      "category": "kb-products",
+      "en": "Deep-document-understanding RAG engine; strongest-in-class parsing and explainable citations.",
+      "zh": "深度文档理解 RAG 引擎，解析能力同类最强，引用可解释。"
+    },
+    {
+      "repo": "Cinnamon/kotaemon",
+      "category": "kb-products",
+      "en": "Clean document-chat web UI for RAG (and GraphRAG) workflows; great for demos and internal tools.",
+      "zh": "简洁的文档问答 Web UI，支持 RAG/GraphRAG 工作流，适合演示与内部工具。"
+    },
+    {
+      "repo": "onyx-dot-app/onyx",
+      "category": "kb-products",
+      "en": "Enterprise search assistant (ex-Danswer): 40+ data-source connectors + RAG chat over them.",
+      "zh": "企业搜索助手（原 Danswer）：40+ 数据源连接器 + 之上的 RAG 问答。"
+    },
+    {
+      "repo": "vitali87/code-graph-rag",
+      "category": "kb-products",
+      "en": "Code-graph RAG for monorepos: query, understand, and edit multi-language codebases.",
+      "zh": "面向 monorepo 的代码图 RAG：查询、理解、编辑多语言代码库。"
+    },
+    {
+      "repo": "run-llama/rags",
+      "category": "kb-products",
+      "en": "ChatGPT-over-your-data defined in natural language, on LlamaIndex.",
+      "zh": "用自然语言定义『你的数据上的 ChatGPT』，基于 LlamaIndex。"
+    },
+    {
+      "repo": "ragapp/ragapp",
+      "category": "kb-products",
+      "en": "Opinionated agentic RAG app for enterprises; Docker-simple deployment.",
+      "zh": "面向企业的 Agentic RAG 应用，Docker 一键部署。"
+    },
+    {
+      "repo": "run-llama/llama_index",
+      "category": "frameworks",
+      "en": "The data framework for LLM applications: ingestion, indexing, and retrieval primitives most RAG stacks build on.",
+      "zh": "LlamaIndex：LLM 应用数据框架，多数 RAG 技术栈的摄取/索引/检索基座。"
+    },
+    {
+      "repo": "langchain-ai/langchain",
+      "category": "frameworks",
+      "en": "General LLM toolkit with the largest integration ecosystem; RAG chains included.",
+      "zh": "LangChain：通用 LLM 工具链，集成生态最大，RAG 链齐备。"
+    },
+    {
+      "repo": "deepset-ai/haystack",
+      "category": "frameworks",
+      "en": "Typed, explicit-component pipelines for production RAG; strong retrieval pedigree.",
+      "zh": "Haystack：类型严格、组件显式的生产级 RAG 管线，检索血统纯正。"
+    },
+    {
+      "repo": "OpenBMB/UltraRAG",
+      "category": "frameworks",
+      "en": "Low-code, MCP-based framework for composing complex RAG pipelines.",
+      "zh": "UltraRAG：低代码、基于 MCP 组合复杂 RAG 管线的框架。"
+    },
+    {
+      "repo": "Marker-Inc-Korea/AutoRAG",
+      "category": "frameworks",
+      "en": "Auto-optimizing RAG: searches modules and parameters against your own eval data.",
+      "zh": "AutoRAG：用你自己的评测数据自动搜索最优 RAG 模块与参数。"
+    },
+    {
+      "repo": "SciPhi-AI/R2R",
+      "category": "frameworks",
+      "en": "Production RAG engine with API, dashboard, and agentic retrieval out of the box.",
+      "zh": "R2R：生产级 RAG 引擎，自带 API、看板与 Agentic 检索。"
+    },
+    {
+      "repo": "HKUDS/LightRAG",
+      "category": "graphrag",
+      "en": "Simple and fast GraphRAG (EMNLP 2025): dual-level graph + vector retrieval.",
+      "zh": "LightRAG（EMNLP 2025）：简单快速的 GraphRAG，图+向量双层检索。"
+    },
+    {
+      "repo": "microsoft/graphrag",
+      "category": "graphrag",
+      "en": "The library that named GraphRAG: LLM-derived knowledge graphs for corpus-level questions.",
+      "zh": "Microsoft GraphRAG：命名词汇的原始实现，LLM 构建知识图谱回答语料级问题。"
+    },
+    {
+      "repo": "getzep/graphiti",
+      "category": "graphrag",
+      "en": "Temporal knowledge graphs for agent memory (Zep); edges carry bi-temporal validity.",
+      "zh": "Graphiti（Zep）：面向 Agent 记忆的时序知识图谱，边带双时间轴有效性。"
+    },
+    {
+      "repo": "topoteretes/cognee",
+      "category": "graphrag",
+      "en": "Memory engine that turns data into knowledge graphs for retrieval-augmented agents.",
+      "zh": "Cognee：把数据变成知识图谱、服务检索增强 Agent 的记忆引擎。"
+    },
+    {
+      "repo": "gusye1234/nano-graphrag",
+      "category": "graphrag",
+      "en": "Minimal, hackable GraphRAG reference implementation — read this to understand the pattern.",
+      "zh": "nano-graphrag：极简可改的 GraphRAG 参考实现，读懂模式看它。"
+    },
+    {
+      "repo": "opendatalab/MinerU",
+      "category": "parsing",
+      "en": "PDF/scans → markdown/JSON extraction that survives ugly layouts; the parsing layer many RAG stacks now default to.",
+      "zh": "MinerU：把 PDF/扫描件转成 Markdown/JSON，再丑的版式也能啃，很多 RAG 栈的解析层默认选择。"
+    },
+    {
+      "repo": "DS4SD/docling",
+      "category": "parsing",
+      "en": "IBM's document parsing library: rich structure, tables, and layout understanding.",
+      "zh": "Docling（IBM）：文档解析库，结构/表格/版面理解能力强。"
+    },
+    {
+      "repo": "Unstructured-IO/unstructured",
+      "category": "parsing",
+      "en": "The ingest-layer standard: any document format → clean typed elements.",
+      "zh": "Unstructured：摄取层事实标准，任意文档格式 → 干净的类型化元素。"
+    },
+    {
+      "repo": "StarTrail-org/PixelRAG",
+      "category": "parsing",
+      "en": "Pixel-level RAG (arXiv:2606.28344): retrieve over rendered pixels, skip text parsing entirely.",
+      "zh": "PixelRAG（arXiv:2606.28344）：像素级 RAG，直接在渲染像素上检索，跳过文本解析。"
+    },
+    {
+      "repo": "vibrantlabsai/ragas",
+      "category": "evaluation",
+      "en": "De-facto RAG evaluation SDK: faithfulness, answer relevance, context precision/recall.",
+      "zh": "Ragas：事实标准的 RAG 评测库：忠实度、答案相关性、上下文精确率/召回率。"
+    },
+    {
+      "repo": "confident-ai/deepeval",
+      "category": "evaluation",
+      "en": "LLM evaluation framework with RAG metrics, pytest-style, LLM-as-judge included.",
+      "zh": "DeepEval：LLM 评测框架，含 RAG 指标，pytest 风格，自带 LLM 裁判。"
+    },
+    {
+      "repo": "langfuse/langfuse",
+      "category": "evaluation",
+      "en": "Open-source LLM observability: trace RAG pipelines end-to-end, evaluate traces.",
+      "zh": "Langfuse：开源 LLM 可观测性，端到端追踪 RAG 管线并对轨迹做评测。"
+    },
+    {
+      "repo": "Arize-ai/phoenix",
+      "category": "evaluation",
+      "en": "Tracing + evals for LLM/agent apps; retrieval-span analysis included.",
+      "zh": "Phoenix：LLM/Agent 应用的追踪与评测，含检索 span 分析。"
+    },
+    {
+      "repo": "NirDiamant/RAG_Techniques",
+      "category": "research",
+      "en": "60+ RAG techniques as runnable notebooks — the technique cookbook.",
+      "zh": "60+ 种 RAG 技术的可运行 notebook 合集，技术食谱书。"
+    },
+    {
+      "repo": "langchain-ai/rag-from-scratch",
+      "category": "research",
+      "en": "LangChain's 'RAG from scratch' series as incremental code.",
+      "zh": "LangChain 官方『RAG 从零实现』系列代码。"
+    },
+    {
+      "repo": "jamwithai/production-agentic-rag-course",
+      "category": "research",
+      "en": "Hands-on course: agentic RAG patterns that survive production.",
+      "zh": "实战课程：能在生产环境活下来的 Agentic RAG 模式。"
+    },
+    {
+      "repo": "datawhalechina/all-in-rag",
+      "category": "research",
+      "en": "Datawhale's full-stack Chinese RAG tutorial book (online-readable).",
+      "zh": "Datawhale 出品的 RAG 全栈教程书（中文，在线可读）。"
+    },
+    {
+      "repo": "RUC-NLPIR/FlashRAG",
+      "category": "research",
+      "en": "Modular RAG research toolkit: 40+ methods, reproducible benchmark runs.",
+      "zh": "FlashRAG（人大）：模块化 RAG 研究工具箱，40+ 方法，可复现基准。"
+    },
+    {
+      "repo": "Shubhamsaboo/awesome-llm-apps",
+      "category": "collections",
+      "en": "100+ runnable AI agent and RAG app templates; the biggest 'awesome' in the space.",
+      "zh": "100+ 可运行的 AI Agent 与 RAG 应用模板，该领域最大的 awesome 仓库。"
+    },
+    {
+      "repo": "DEEP-PolyU/Awesome-GraphRAG",
+      "category": "collections",
+      "en": "Survey-backed GraphRAG paper list; the best-maintained academic tracker in this niche.",
+      "zh": "有综述论文背书的 GraphRAG 论文清单，该方向维护最认真的学术追踪。"
+    },
+    {
+      "repo": "Danielskry/Awesome-RAG",
+      "category": "collections",
+      "en": "Engineering-oriented RAG resource map: patterns, tools, production notes.",
+      "zh": "工程视角的 RAG 资源地图：模式、工具、生产注意事项。"
+    },
+    {
+      "repo": "jxzhangjhu/Awesome-LLM-RAG",
+      "category": "collections",
+      "en": "Paper-first RAG list organized by research theme.",
+      "zh": "按研究主题组织的 RAG 论文清单。"
+    },
+    {
+      "repo": "lizhe2004/Awesome-LLM-RAG-Application",
+      "category": "collections",
+      "en": "Chinese-language RAG list strong on industry case studies (QCon/AICon talks).",
+      "zh": "中文 RAG 清单，业界案例（QCon/AICon 分享）部分最扎实。"
+    },
+    {
+      "repo": "WangRongsheng/awesome-LLM-resources",
+      "category": "collections",
+      "en": "Bilingual LLM full-stack resource map; RAG is one strong section.",
+      "zh": "双语 LLM 全栈资源库，RAG 是其中一个高质量章节。"
+    },
+    {
+      "repo": "Meirtz/Awesome-Context-Engineering",
+      "category": "collections",
+      "en": "Context-engineering survey list — the adjacent frontier where RAG is heading.",
+      "zh": "上下文工程综述清单，RAG 正在走向的邻近前沿。"
+    },
+    {
+      "repo": "Xnhyacinth/Awesome-LLM-Long-Context-Modeling",
+      "category": "collections",
+      "en": "Long-context modeling list — the other half of the long-context-vs-RAG debate.",
+      "zh": "长上下文建模清单：『长上下文 vs RAG』之争的另一半。"
+    },
+    {
+      "repo": "hymie122/RAG-Survey",
+      "category": "collections",
+      "en": "RAG paper taxonomy (foundations / enhancement / task) with a companion survey.",
+      "zh": "RAG 论文分类清单（基础/增强/任务），配套综述论文。"
+    }
+  ]
+}
