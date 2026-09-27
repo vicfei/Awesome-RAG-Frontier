@@ -36,9 +36,9 @@
 
 | 项目 | 一句话点评 | Stars | 最近推送 |
 | --- | --- | :--: | :--: |
-| [ragflow](https://github.com/infiniflow/ragflow) | 深度文档理解 RAG 引擎，解析能力同类最强，引用可解释。 | 91,355 | 2026-09-26 |
+| [ragflow](https://github.com/infiniflow/ragflow) | 深度文档理解 RAG 引擎，解析能力同类最强，引用可解释。 | 91,356 | 2026-09-26 |
 | [onyx](https://github.com/onyx-dot-app/onyx) | 企业搜索助手（原 Danswer）：40+ 数据源连接器 + 之上的 RAG 问答。 | 32,259 | 2026-09-27 |
-| [WeKnora](https://github.com/Tencent/WeKnora) | 腾讯开源的大模型知识库平台：混合检索+重排、父子分块、GraphRAG、沙箱内 Agent 技能、自维护 Wiki。Go 实现，MIT 协议。 | 30,509 | 2026-09-27 |
+| [WeKnora](https://github.com/Tencent/WeKnora) | 腾讯开源的大模型知识库平台：混合检索+重排、父子分块、GraphRAG、沙箱内 Agent 技能、自维护 Wiki。Go 实现，MIT 协议。 | 30,512 | 2026-09-27 |
 | [kotaemon](https://github.com/Cinnamon/kotaemon) | 简洁的文档问答 Web UI，支持 RAG/GraphRAG 工作流，适合演示与内部工具。 | 25,778 | 2026-07-14 |
 | [rags](https://github.com/run-llama/rags) ⚠️ | 用自然语言定义『你的数据上的 ChatGPT』，基于 LlamaIndex。 | 6,551 | 2024-04-05 |
 | [code-graph-rag](https://github.com/vitali87/code-graph-rag) | 面向 monorepo 的代码图 RAG：查询、理解、编辑多语言代码库。 | 5,182 | 2026-09-27 |
@@ -61,18 +61,18 @@
 | --- | --- | :--: | :--: |
 | [LightRAG](https://github.com/HKUDS/LightRAG) | LightRAG（EMNLP 2025）：简单快速的 GraphRAG，图+向量双层检索。 | 39,880 | 2026-09-27 |
 | [graphrag](https://github.com/microsoft/graphrag) | Microsoft GraphRAG：命名词汇的原始实现，LLM 构建知识图谱回答语料级问题。 | 36,119 | 2026-09-24 |
-| [graphiti](https://github.com/getzep/graphiti) | Graphiti（Zep）：面向 Agent 记忆的时序知识图谱，边带双时间轴有效性。 | 31,200 | 2026-09-27 |
-| [cognee](https://github.com/topoteretes/cognee) | Cognee：把数据变成知识图谱、服务检索增强 Agent 的记忆引擎。 | 31,031 | 2026-09-27 |
+| [graphiti](https://github.com/getzep/graphiti) | Graphiti（Zep）：面向 Agent 记忆的时序知识图谱，边带双时间轴有效性。 | 31,201 | 2026-09-27 |
+| [cognee](https://github.com/topoteretes/cognee) | Cognee：把数据变成知识图谱、服务检索增强 Agent 的记忆引擎。 | 31,032 | 2026-09-27 |
 | [nano-graphrag](https://github.com/gusye1234/nano-graphrag) ⚠️ | nano-graphrag：极简可改的 GraphRAG 参考实现，读懂模式看它。 | 3,989 | 2026-01-27 |
 
 ### 文档解析与多模态摄取
 
 | 项目 | 一句话点评 | Stars | 最近推送 |
 | --- | --- | :--: | :--: |
-| [MinerU](https://github.com/opendatalab/MinerU) | MinerU：把 PDF/扫描件转成 Markdown/JSON，再丑的版式也能啃，很多 RAG 栈的解析层默认选择。 | 80,713 | 2026-09-24 |
-| [docling](https://github.com/DS4SD/docling) | Docling（IBM）：文档解析库，结构/表格/版面理解能力强。 | 68,038 | 2026-09-25 |
+| [MinerU](https://github.com/opendatalab/MinerU) | MinerU：把 PDF/扫描件转成 Markdown/JSON，再丑的版式也能啃，很多 RAG 栈的解析层默认选择。 | 80,716 | 2026-09-24 |
+| [docling](https://github.com/DS4SD/docling) | Docling（IBM）：文档解析库，结构/表格/版面理解能力强。 | 68,042 | 2026-09-25 |
 | [unstructured](https://github.com/Unstructured-IO/unstructured) | Unstructured：摄取层事实标准，任意文档格式 → 干净的类型化元素。 | 15,506 | 2026-09-27 |
-| [PixelRAG](https://github.com/StarTrail-org/PixelRAG) | PixelRAG（arXiv:2606.28344）：像素级 RAG，直接在渲染像素上检索，跳过文本解析。 | 10,104 | 2026-09-27 |
+| [PixelRAG](https://github.com/StarTrail-org/PixelRAG) | PixelRAG（arXiv:2606.28344）：像素级 RAG，直接在渲染像素上检索，跳过文本解析。 | 10,105 | 2026-09-27 |
 
 ### 评测与可观测性
 
@@ -81,14 +81,14 @@
 | [langfuse](https://github.com/langfuse/langfuse) | Langfuse：开源 LLM 可观测性，端到端追踪 RAG 管线并对轨迹做评测。 | 35,102 | 2026-09-27 |
 | [deepeval](https://github.com/confident-ai/deepeval) | DeepEval：LLM 评测框架，含 RAG 指标，pytest 风格，自带 LLM 裁判。 | 18,464 | 2026-09-25 |
 | [ragas](https://github.com/vibrantlabsai/ragas) ⚠️ | Ragas：事实标准的 RAG 评测库：忠实度、答案相关性、上下文精确率/召回率。 | 15,859 | 2026-02-24 |
-| [phoenix](https://github.com/Arize-ai/phoenix) | Phoenix：LLM/Agent 应用的追踪与评测，含检索 span 分析。 | 11,631 | 2026-09-27 |
+| [phoenix](https://github.com/Arize-ai/phoenix) | Phoenix：LLM/Agent 应用的追踪与评测，含检索 span 分析。 | 11,632 | 2026-09-27 |
 
 ### 研究沙盒与课程
 
 | 项目 | 一句话点评 | Stars | 最近推送 |
 | --- | --- | :--: | :--: |
 | [RAG_Techniques](https://github.com/NirDiamant/RAG_Techniques) | 60+ 种 RAG 技术的可运行 notebook 合集，技术食谱书。 | 29,606 | 2026-09-21 |
-| [all-in-rag](https://github.com/datawhalechina/all-in-rag) | Datawhale 出品的 RAG 全栈教程书（中文，在线可读）。 | 11,443 | 2026-09-04 |
+| [all-in-rag](https://github.com/datawhalechina/all-in-rag) | Datawhale 出品的 RAG 全栈教程书（中文，在线可读）。 | 11,445 | 2026-09-04 |
 | [rag-from-scratch](https://github.com/langchain-ai/rag-from-scratch) ⚠️ | LangChain 官方『RAG 从零实现』系列代码。 | 9,385 | 2025-06-26 |
 | [production-agentic-rag-course](https://github.com/jamwithai/production-agentic-rag-course) | 实战课程：能在生产环境活下来的 Agentic RAG 模式。 | 8,946 | 2026-06-05 |
 | [FlashRAG](https://github.com/RUC-NLPIR/FlashRAG) | FlashRAG（人大）：模块化 RAG 研究工具箱，40+ 方法，可复现基准。 | 3,583 | 2026-09-19 |
@@ -97,7 +97,7 @@
 
 | 项目 | 一句话点评 | Stars | 最近推送 |
 | --- | --- | :--: | :--: |
-| [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps) | 100+ 可运行的 AI Agent 与 RAG 应用模板，该领域最大的 awesome 仓库。 | 139,956 | 2026-09-26 |
+| [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps) | 100+ 可运行的 AI Agent 与 RAG 应用模板，该领域最大的 awesome 仓库。 | 139,960 | 2026-09-26 |
 | [awesome-LLM-resources](https://github.com/WangRongsheng/awesome-LLM-resources) | 双语 LLM 全栈资源库，RAG 是其中一个高质量章节。 | 8,986 | 2026-09-21 |
 | [Awesome-Context-Engineering](https://github.com/Meirtz/Awesome-Context-Engineering) | 上下文工程综述清单，RAG 正在走向的邻近前沿。 | 3,312 | 2026-05-28 |
 | [Awesome-GraphRAG](https://github.com/DEEP-PolyU/Awesome-GraphRAG) | 有综述论文背书的 GraphRAG 论文清单，该方向维护最认真的学术追踪。 | 2,658 | 2026-06-02 |

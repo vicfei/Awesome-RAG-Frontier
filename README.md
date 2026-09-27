@@ -36,9 +36,9 @@ A short, dated, sourced changelog of what shipped — start with [news/2026-09.m
 
 | Project | Why it matters | Stars | Last push |
 | --- | --- | :--: | :--: |
-| [ragflow](https://github.com/infiniflow/ragflow) | Deep-document-understanding RAG engine; strongest-in-class parsing and explainable citations. | 91,355 | 2026-09-26 |
+| [ragflow](https://github.com/infiniflow/ragflow) | Deep-document-understanding RAG engine; strongest-in-class parsing and explainable citations. | 91,356 | 2026-09-26 |
 | [onyx](https://github.com/onyx-dot-app/onyx) | Enterprise search assistant (ex-Danswer): 40+ data-source connectors + RAG chat over them. | 32,259 | 2026-09-27 |
-| [WeKnora](https://github.com/Tencent/WeKnora) | Tencent's open-source LLM knowledge platform: hybrid retrieval + rerank, parent-child chunking, GraphRAG, agent skills in sandboxes, self-maintaining wiki. Go, MIT. | 30,509 | 2026-09-27 |
+| [WeKnora](https://github.com/Tencent/WeKnora) | Tencent's open-source LLM knowledge platform: hybrid retrieval + rerank, parent-child chunking, GraphRAG, agent skills in sandboxes, self-maintaining wiki. Go, MIT. | 30,512 | 2026-09-27 |
 | [kotaemon](https://github.com/Cinnamon/kotaemon) | Clean document-chat web UI for RAG (and GraphRAG) workflows; great for demos and internal tools. | 25,778 | 2026-07-14 |
 | [rags](https://github.com/run-llama/rags) ⚠️ | ChatGPT-over-your-data defined in natural language, on LlamaIndex. | 6,551 | 2024-04-05 |
 | [code-graph-rag](https://github.com/vitali87/code-graph-rag) | Code-graph RAG for monorepos: query, understand, and edit multi-language codebases. | 5,182 | 2026-09-27 |
@@ -61,18 +61,18 @@ A short, dated, sourced changelog of what shipped — start with [news/2026-09.m
 | --- | --- | :--: | :--: |
 | [LightRAG](https://github.com/HKUDS/LightRAG) | Simple and fast GraphRAG (EMNLP 2025): dual-level graph + vector retrieval. | 39,880 | 2026-09-27 |
 | [graphrag](https://github.com/microsoft/graphrag) | The library that named GraphRAG: LLM-derived knowledge graphs for corpus-level questions. | 36,119 | 2026-09-24 |
-| [graphiti](https://github.com/getzep/graphiti) | Temporal knowledge graphs for agent memory (Zep); edges carry bi-temporal validity. | 31,200 | 2026-09-27 |
-| [cognee](https://github.com/topoteretes/cognee) | Memory engine that turns data into knowledge graphs for retrieval-augmented agents. | 31,031 | 2026-09-27 |
+| [graphiti](https://github.com/getzep/graphiti) | Temporal knowledge graphs for agent memory (Zep); edges carry bi-temporal validity. | 31,201 | 2026-09-27 |
+| [cognee](https://github.com/topoteretes/cognee) | Memory engine that turns data into knowledge graphs for retrieval-augmented agents. | 31,032 | 2026-09-27 |
 | [nano-graphrag](https://github.com/gusye1234/nano-graphrag) ⚠️ | Minimal, hackable GraphRAG reference implementation — read this to understand the pattern. | 3,989 | 2026-01-27 |
 
 ### Document parsing & multimodal ingestion
 
 | Project | Why it matters | Stars | Last push |
 | --- | --- | :--: | :--: |
-| [MinerU](https://github.com/opendatalab/MinerU) | PDF/scans → markdown/JSON extraction that survives ugly layouts; the parsing layer many RAG stacks now default to. | 80,713 | 2026-09-24 |
-| [docling](https://github.com/DS4SD/docling) | IBM's document parsing library: rich structure, tables, and layout understanding. | 68,038 | 2026-09-25 |
+| [MinerU](https://github.com/opendatalab/MinerU) | PDF/scans → markdown/JSON extraction that survives ugly layouts; the parsing layer many RAG stacks now default to. | 80,716 | 2026-09-24 |
+| [docling](https://github.com/DS4SD/docling) | IBM's document parsing library: rich structure, tables, and layout understanding. | 68,042 | 2026-09-25 |
 | [unstructured](https://github.com/Unstructured-IO/unstructured) | The ingest-layer standard: any document format → clean typed elements. | 15,506 | 2026-09-27 |
-| [PixelRAG](https://github.com/StarTrail-org/PixelRAG) | Pixel-level RAG (arXiv:2606.28344): retrieve over rendered pixels, skip text parsing entirely. | 10,104 | 2026-09-27 |
+| [PixelRAG](https://github.com/StarTrail-org/PixelRAG) | Pixel-level RAG (arXiv:2606.28344): retrieve over rendered pixels, skip text parsing entirely. | 10,105 | 2026-09-27 |
 
 ### Evaluation & observability
 
@@ -81,14 +81,14 @@ A short, dated, sourced changelog of what shipped — start with [news/2026-09.m
 | [langfuse](https://github.com/langfuse/langfuse) | Open-source LLM observability: trace RAG pipelines end-to-end, evaluate traces. | 35,102 | 2026-09-27 |
 | [deepeval](https://github.com/confident-ai/deepeval) | LLM evaluation framework with RAG metrics, pytest-style, LLM-as-judge included. | 18,464 | 2026-09-25 |
 | [ragas](https://github.com/vibrantlabsai/ragas) ⚠️ | De-facto RAG evaluation SDK: faithfulness, answer relevance, context precision/recall. | 15,859 | 2026-02-24 |
-| [phoenix](https://github.com/Arize-ai/phoenix) | Tracing + evals for LLM/agent apps; retrieval-span analysis included. | 11,631 | 2026-09-27 |
+| [phoenix](https://github.com/Arize-ai/phoenix) | Tracing + evals for LLM/agent apps; retrieval-span analysis included. | 11,632 | 2026-09-27 |
 
 ### Research playgrounds & courses
 
 | Project | Why it matters | Stars | Last push |
 | --- | --- | :--: | :--: |
 | [RAG_Techniques](https://github.com/NirDiamant/RAG_Techniques) | 60+ RAG techniques as runnable notebooks — the technique cookbook. | 29,606 | 2026-09-21 |
-| [all-in-rag](https://github.com/datawhalechina/all-in-rag) | Datawhale's full-stack Chinese RAG tutorial book (online-readable). | 11,443 | 2026-09-04 |
+| [all-in-rag](https://github.com/datawhalechina/all-in-rag) | Datawhale's full-stack Chinese RAG tutorial book (online-readable). | 11,445 | 2026-09-04 |
 | [rag-from-scratch](https://github.com/langchain-ai/rag-from-scratch) ⚠️ | LangChain's 'RAG from scratch' series as incremental code. | 9,385 | 2025-06-26 |
 | [production-agentic-rag-course](https://github.com/jamwithai/production-agentic-rag-course) | Hands-on course: agentic RAG patterns that survive production. | 8,946 | 2026-06-05 |
 | [FlashRAG](https://github.com/RUC-NLPIR/FlashRAG) | Modular RAG research toolkit: 40+ methods, reproducible benchmark runs. | 3,583 | 2026-09-19 |
@@ -97,7 +97,7 @@ A short, dated, sourced changelog of what shipped — start with [news/2026-09.m
 
 | Project | Why it matters | Stars | Last push |
 | --- | --- | :--: | :--: |
-| [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps) | 100+ runnable AI agent and RAG app templates; the biggest 'awesome' in the space. | 139,956 | 2026-09-26 |
+| [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps) | 100+ runnable AI agent and RAG app templates; the biggest 'awesome' in the space. | 139,960 | 2026-09-26 |
 | [awesome-LLM-resources](https://github.com/WangRongsheng/awesome-LLM-resources) | Bilingual LLM full-stack resource map; RAG is one strong section. | 8,986 | 2026-09-21 |
 | [Awesome-Context-Engineering](https://github.com/Meirtz/Awesome-Context-Engineering) | Context-engineering survey list — the adjacent frontier where RAG is heading. | 3,312 | 2026-05-28 |
 | [Awesome-GraphRAG](https://github.com/DEEP-PolyU/Awesome-GraphRAG) | Survey-backed GraphRAG paper list; the best-maintained academic tracker in this niche. | 2,658 | 2026-06-02 |
