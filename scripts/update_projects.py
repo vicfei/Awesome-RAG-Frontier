@@ -23,6 +23,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 PROJECTS_FILE = ROOT / "data" / "projects.json"
+RADAR_FILE = ROOT / "data" / "radar.json"
 STATS_FILE = ROOT / "data" / "stats.json"
 README_FILES = [ROOT / "README.md", ROOT / "README.zh-CN.md"]
 
@@ -30,6 +31,8 @@ STALE_AFTER_DAYS = 180
 
 BLOCK_START = "<!-- frontier:projects:start -->"
 BLOCK_END = "<!-- frontier:projects:end -->"
+RADAR_START = "<!-- frontier:radar:start -->"
+RADAR_END = "<!-- frontier:radar:end -->"
 BADGE_RE = re.compile(r"!\[refreshed\]\([^)]*\)")
 API_ROOT = "https://api.github.com/repos/"
 
@@ -137,6 +140,37 @@ def build_tables(config: dict, stats: dict, lang: str) -> str:
     return "\n\n".join(parts)
 
 
+def build_radar_table(radar_items: list[dict], stats: dict, lang: str) -> str:
+    today = date.today().isoformat()
+    if lang == "en":
+        headers = ("Project", "Why it's on the radar", "Stars", "Last push")
+        footer = (
+            f"_Pre-threshold watchlist — auto-refreshed {today}. Entries graduate to the "
+            "main tables once they meet the full criteria (criteria.md)._"
+        )
+    else:
+        headers = ("项目", "为何值得关注", "Stars", "最近推送")
+        footer = (
+            f"_未达门槛观察线 — 自动刷新于 {today}。达到完整收录标准后自动毕业进入主表（见 criteria.md）。_"
+        )
+    desc_key = "en" if lang == "en" else "zh"
+    rows = [f"| {headers[0]} | {headers[1]} | {headers[2]} | {headers[3]} |", "| --- | --- | :--: | :--: |"]
+    items = sorted(radar_items, key=lambda item: item["repo"])
+    for item in items:
+        entry = stats.get(item["repo"]) or {}
+        stars = entry.get("stars")
+        stars_text = f"{stars:,}" if isinstance(stars, int) else "—"
+        pushed = entry.get("pushed_at") or "—"
+        flag = " ⚠️" if entry.get("archived") else dormancy_flag(entry)
+        display = item["repo"].split("/", 1)[1]
+        rows.append(
+            f"| [{display}](https://github.com/{item['repo']}){flag} "
+            f"| {item.get(desc_key) or item.get('en', '')} "
+            f"| {stars_text} | {pushed} |"
+        )
+    return "\n".join(rows) + "\n\n" + footer
+
+
 def splice(text: str, block: str) -> str:
     start = text.index(BLOCK_START) + len(BLOCK_START)
     end = text.index(BLOCK_END)
@@ -145,15 +179,27 @@ def splice(text: str, block: str) -> str:
 
 def main() -> int:
     config = json.loads(PROJECTS_FILE.read_text(encoding="utf-8"))
+    radar_items = []
+    if RADAR_FILE.exists():
+        radar_items = json.loads(RADAR_FILE.read_text(encoding="utf-8")).get("items", [])
     token = os.environ.get("GITHUB_TOKEN") or os.environ.get("GH_TOKEN")
     repos = [item["repo"] for item in config["items"]]
-    stats = collect_stats(repos, token)
+    radar_repos = [item["repo"] for item in radar_items]
+    stats = collect_stats(repos + radar_repos, token)
 
     badge_code = date.today().isoformat().replace("-", "--")
     badge = f"![refreshed](https://img.shields.io/badge/refreshed-{badge_code}-2ea44f)"
+    radar_block = build_radar_table(radar_items, stats, "en") if radar_items else ""
+    radar_block_zh = build_radar_table(radar_items, stats, "zh") if radar_items else ""
     for path in README_FILES:
+        lang = "zh" if "zh-CN" in path.name else "en"
         text = path.read_text(encoding="utf-8")
-        text = splice(text, build_tables(config, stats, "zh" if "zh-CN" in path.name else "en"))
+        text = splice(text, build_tables(config, stats, lang))
+        if radar_items and RADAR_START in text:
+            start = text.index(RADAR_START) + len(RADAR_START)
+            end = text.index(RADAR_END)
+            block = radar_block_zh if lang == "zh" else radar_block
+            text = text[:start] + "\n\n" + block + "\n\n" + text[end:]
         if BADGE_RE.search(text):
             text = BADGE_RE.sub(lambda _: badge, text, count=1)
         path.write_text(text, encoding="utf-8")
@@ -168,7 +214,7 @@ def main() -> int:
         + "\n",
         encoding="utf-8",
     )
-    missing = sorted(set(repos) - set(stats))
+    missing = sorted((set(repos) | set(radar_repos)) - set(stats))
     if missing:
         print(f"no data for: {', '.join(missing)}", file=sys.stderr)
         return 1

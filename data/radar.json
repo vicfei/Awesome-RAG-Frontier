@@ -1,0 +1,29 @@
+{
+  "items": [
+    {
+      "repo": "ConardLi/rag-skill",
+      "en": "The spark of the RAG-as-skill wave: local knowledge retrieval via hierarchical index files + grep + progressive disclosure — no vectors, no embeddings. Archived; successor: garden-skills.",
+      "zh": "RAG-as-skill 浪潮的起点：层级索引文件 + grep + 渐进披露做本地知识检索，无向量无嵌入。已归档，后继为 garden-skills。"
+    },
+    {
+      "repo": "lyxhnu/Skill-First-Hybrid-RAG",
+      "en": "Skill-first agent workbench that falls back to vector + BM25 retrieval when skill evidence misses; ships Ragas evals and editable Markdown memory. Research-grade.",
+      "zh": "Skill 优先的 Agent 工作台，skill 证据不足时回退到向量 + BM25 混合检索，自带 Ragas 评测与可编辑的 Markdown 记忆，研究级。"
+    },
+    {
+      "repo": "Jia-Hong-Peng/rag-to-skill",
+      "en": "Converts JSONL RAG corpora into installable, auditable Claude Code skills — runtime retrieval replaced by a curated, source-anchored knowledge pack.",
+      "zh": "把 JSONL RAG 语料转成可安装、可审计的 Claude Code skill——用带来源锚点的精选知识包替代运行时检索。"
+    },
+    {
+      "repo": "enowdev/enowx-rag",
+      "en": "Go MCP server giving coding agents persistent per-project RAG memory: Qdrant/pgvector/Chroma, hybrid retrieval, rerank, embedded dashboard.",
+      "zh": "Go 实现的 MCP 服务器，为编码 Agent 提供按项目持久化的 RAG 记忆：Qdrant/pgvector/Chroma、混合检索、重排、内嵌看板。"
+    },
+    {
+      "repo": "leichu0612-byte/RAG-Data-Curator-Agent-Skill",
+      "en": "Structure-aware chunking (section → heading → paragraph → sentence) packaged as an agent skill + CLI, with provenance metadata and quality reports.",
+      "zh": "结构感知分块（节 → 标题 → 段落 → 句子）打包成 Agent skill + CLI，带溯源元数据和质量报告。"
+    }
+  ]
+}

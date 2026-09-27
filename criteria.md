@@ -12,6 +12,15 @@ Rules, not vibes. If an entry stops qualifying, it gets flagged or dropped by th
    - clear influence (forked/cited/embedded by entries already tracked).
 4. **Runnable.** A public repo with install and run instructions. Announcement-only repos are not entries.
 
+## Radar (pre-threshold watchlist)
+
+Promising entries that don't clear the bar yet, tracked in `data/radar.json` and rendered under a separate section. Rules:
+
+1. Still **runnable and RAG-central** — the radar is for early-stage, not vaporware.
+2. Must ride a **visible wave** or show unusual quality for its size; a PR should say which.
+3. **Graduation is automatic in spirit**: once an entry meets the full project criteria, it moves up; the weekly refresh keeps its stats honest either way.
+4. Archived entries stay only as historical markers of a wave (the ⚠️ flag shows them for what they are).
+
 ## Papers (curated)
 
 1. Peer-reviewed at a venue we track, **or** companion code with real adoption, **or** demonstrable industry influence.
