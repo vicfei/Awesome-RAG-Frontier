@@ -27,6 +27,12 @@ Promising entries that don't clear the bar yet, tracked in `data/radar.json` and
 2. The *Frontier* subsection favors the last ~18 months. Older papers belong in *Paradigms* only if they named a pattern people still use.
 3. Weekly arXiv digest drafts (`news/_drafts/`) feed this section; a human decides what graduates.
 
+## Enterprise practices (curated)
+
+1. **First-party or verifiable.** Vendor engineering blogs, conference talks with stable URLs, postmortems. No slide decks on rotting cloud-drive links, no content marketing.
+2. **Dated.** Year required when the source states one; `—` otherwise (never guess).
+3. **Technical depth over marketing.** The entry must teach something an operator can act on.
+
 ## Categories
 
 `kb-products` / `frameworks` / `graphrag` / `parsing` / `evaluation` / `research` / `collections` — defined in `data/projects.json`. A new category requires a PR that explains the gap the current seven fail to cover.

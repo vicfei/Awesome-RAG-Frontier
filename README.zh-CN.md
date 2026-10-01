@@ -27,7 +27,7 @@
 
 ## 目录
 
-[为什么再做一个 RAG 清单？](#为什么再做一个-rag-清单) · [本月 RAG 动态](#news) · [项目](#项目) · [雷达](#radar) · [论文](#论文人工精选) · [基准](#值得了解的基准) · [参与贡献](#参与贡献) · [许可证](#许可证)
+[为什么再做一个 RAG 清单？](#为什么再做一个-rag-清单) · [本月 RAG 动态](#news) · [项目](#项目) · [雷达](#radar) · [论文](#论文人工精选) · [基准](#值得了解的基准) · [企业落地实践](#practices) · [参与贡献](#参与贡献) · [许可证](#许可证)
 
 <a id="news"></a>
 
@@ -185,6 +185,21 @@ _未达门槛观察线 — 自动刷新于 2026-09-28。达到完整收录标准
 | HotpotQA / 2WikiMultiHopQA / MuSiQue | 多跳问答——RAG 推理标准三件套。 |
 | MultiHop-RAG | 网页文档+图片上的多跳推理。 |
 | GraphRAG-Bench | 面向 GraphRAG 系统的图推理问答。 |
+
+<a id="practices"></a>
+
+## 🏭 企业落地实践（人工精选）
+
+RAG 在企业里究竟怎么运营——一手工程博客与可验证的案例，不是厂商宣讲稿。本节门槛：一手或可验证、带日期、技术含量大于营销。
+
+| 实践 | 来源 | 年份 | 一句话教训 |
+| --- | --- | :--: | --- |
+| [Enhanced Agentic-RAG](https://www.uber.com/en-PK/blog/enhanced-agentic-rag/) | Uber 工程博客 | 2025 | 文档深度加工 + agentic 检索，把值班助手 Genie 的回答精度拉到接近人类。 |
+| [What We Learned from a Year of Building with LLMs（I & II）](https://www.oreilly.com/radar/what-we-learned-from-a-year-of-building-with-llms-part-i/) | O'Reilly | 2023 | 生产级 LLM 应用的经典总结：评测先行、架构从简、成本是设计轴。至今仍然对。 |
+| [Milvus 在携程酒店搜索中的应用](https://zilliz.com.cn/blog/usercase-milvus-trip) | Zilliz / 携程 | 2024 | 旅游行业规模的向量检索：真实排序约束下的召回工程。 |
+| [得物：RAG 在开放平台智能答疑的探索](https://mp.weixin.qq.com/s/6yhYLKfNrumSMs7ELvktjg) | 得物技术 | — | 中文电商实践：从朴素知识库问答走向结构化、评测驱动的答疑。 |
+
+日期以来源发布为准；欢迎 PR 修正或补充——本节一次只长一条经过验证的条目。
 
 ## 参与贡献
 

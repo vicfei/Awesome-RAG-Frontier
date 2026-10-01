@@ -27,7 +27,7 @@ Inclusion is rule-based, not vibes-based: see **[criteria.md](criteria.md)**.
 
 ## Contents
 
-[Why another RAG list?](#why-another-rag-list) · [This Month in RAG](#news) · [Projects](#projects) · [Radar](#radar) · [Papers](#papers-curated) · [Benchmarks](#benchmarks-worth-knowing) · [Contributing](#contributing) · [License](#license)
+[Why another RAG list?](#why-another-rag-list) · [This Month in RAG](#news) · [Projects](#projects) · [Radar](#radar) · [Papers](#papers-curated) · [Benchmarks](#benchmarks-worth-knowing) · [Enterprise practices](#practices) · [Contributing](#contributing) · [License](#license)
 
 <a id="news"></a>
 
@@ -185,6 +185,21 @@ Curated by hand; fed weekly by the arXiv digest drafts in [`news/_drafts/`](news
 | HotpotQA / 2WikiMultiHopQA / MuSiQue | Multi-hop QA — the standard RAG reasoning trio. |
 | MultiHop-RAG | Multi-hop reasoning over web documents + images. |
 | GraphRAG-Bench | Graph reasoning QA for GraphRAG systems. |
+
+<a id="practices"></a>
+
+## 🏭 Enterprise practices (curated)
+
+How RAG actually gets operated inside companies — first-party engineering posts and verifiable case studies, not vendor decks. The bar for this section: first-party or verifiable, dated, technical depth over marketing.
+
+| Practice | Source | Year | The lesson |
+| --- | --- | :--: | --- |
+| [Enhanced Agentic-RAG](https://www.uber.com/en-PK/blog/enhanced-agentic-rag/) | Uber Engineering | 2025 | Enriched document processing + agentic retrieval lifted their on-call copilot (Genie) to near-human answer precision. |
+| [What We Learned from a Year of Building with LLMs (I & II)](https://www.oreilly.com/radar/what-we-learned-from-a-year-of-building-with-llms-part-i/) | O'Reilly | 2023 | The canonical production synthesis — eval-first, boring architecture, cost as a design axis. Still right. |
+| [Milvus in Ctrip hotel search](https://zilliz.com.cn/blog/usercase-milvus-trip) | Zilliz / Ctrip | 2024 | Vector retrieval at travel-industry scale: recall engineering under real ranking constraints. |
+| [得物：RAG 在开放平台智能答疑的探索](https://mp.weixin.qq.com/s/6yhYLKfNrumSMs7ELvktjg) | 得物技术 | — | Chinese e-commerce practice: from naive KB QA toward structured, evaluation-driven answering. |
+
+Dates as published by the source; PRs may correct or add — the section grows one verified entry at a time.
 
 ## Contributing
 
