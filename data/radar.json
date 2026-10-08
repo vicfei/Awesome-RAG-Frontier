@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "repo": "VectifyAI/jev-doc-search",
+      "en": "Long-document search combining Jev decisions with PageIndex retrieval — the decision-layer wave reaching document search.",
+      "zh": "用 Jev 决策 + PageIndex 检索做长文档搜索——决策层浪潮蔓延到文档检索。"
+    },
+    {
+      "repo": "AbdoslamB/InkDoc",
+      "en": "Local desktop app turning documents into AI-ready Markdown on top of MarkItDown and Docling — parsing made one-click.",
+      "zh": "本地桌面应用，基于 MarkItDown 与 Docling 把文档一键转成 AI 可用的 Markdown。"
+    },
+    {
+      "repo": "p10node/docflare-ai",
+      "en": "Docs chat and site search as one <script> tag, fully on Cloudflare's free tier (Workers AI + Vectorize + D1).",
+      "zh": "一行 <script> 嵌入的文档问答与站内搜索，全部跑在 Cloudflare 免费额度上（Workers AI + Vectorize + D1）。"
+    },
+    {
       "repo": "hotchpotch/jev-reranker",
       "en": "Jev-powered relevance filtering and reranking for RAG in Python — the decision-layer wave's RAG-specific toolkit taking shape.",
       "zh": "用 Jev 做 RAG 相关性过滤与重排的 Python 库——决策层浪潮的 RAG 专用工具正在成形。"

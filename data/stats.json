@@ -2,7 +2,7 @@
   "generated_at": "2026-10-09",
   "repos": {
     "Tencent/WeKnora": {
-      "stars": 32597,
+      "stars": 32599,
       "pushed_at": "2026-10-08",
       "archived": false
     },
@@ -67,17 +67,17 @@
       "archived": false
     },
     "NandhaKishorM/laya": {
-      "stars": 31671,
+      "stars": 31673,
       "pushed_at": "2026-10-07",
       "archived": false
     },
     "jaredpalmer/kev": {
-      "stars": 8721,
+      "stars": 8722,
       "pushed_at": "2026-10-06",
       "archived": false
     },
     "TheoLeeCJ/SemIf-OpenJev": {
-      "stars": 4742,
+      "stars": 4743,
       "pushed_at": "2026-09-23",
       "archived": false
     },
@@ -102,7 +102,7 @@
       "archived": false
     },
     "topoteretes/cognee": {
-      "stars": 31702,
+      "stars": 31710,
       "pushed_at": "2026-10-08",
       "archived": false
     },
@@ -112,22 +112,22 @@
       "archived": false
     },
     "microsoft/markitdown": {
-      "stars": 189195,
+      "stars": 189197,
       "pushed_at": "2026-10-04",
       "archived": false
     },
     "firecrawl/anydoc": {
-      "stars": 22617,
+      "stars": 22620,
       "pushed_at": "2026-08-28",
       "archived": false
     },
     "opendatalab/MinerU": {
-      "stars": 81301,
+      "stars": 81302,
       "pushed_at": "2026-10-06",
       "archived": false
     },
     "DS4SD/docling": {
-      "stars": 68540,
+      "stars": 68542,
       "pushed_at": "2026-10-08",
       "archived": false
     },
@@ -152,7 +152,7 @@
       "archived": false
     },
     "langfuse/langfuse": {
-      "stars": 35528,
+      "stars": 35529,
       "pushed_at": "2026-10-08",
       "archived": false
     },
@@ -192,7 +192,7 @@
       "archived": false
     },
     "patchy631/ai-engineering-hub": {
-      "stars": 38256,
+      "stars": 38255,
       "pushed_at": "2026-09-10",
       "archived": false
     },
@@ -244,6 +244,21 @@
     "hymie122/RAG-Survey": {
       "stars": 1790,
       "pushed_at": "2024-08-20",
+      "archived": false
+    },
+    "VectifyAI/jev-doc-search": {
+      "stars": 120,
+      "pushed_at": "2026-10-03",
+      "archived": false
+    },
+    "AbdoslamB/InkDoc": {
+      "stars": 53,
+      "pushed_at": "2026-10-03",
+      "archived": false
+    },
+    "p10node/docflare-ai": {
+      "stars": 22,
+      "pushed_at": "2026-10-08",
       "archived": false
     },
     "hotchpotch/jev-reranker": {
