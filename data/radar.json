@@ -1,6 +1,16 @@
 {
   "items": [
     {
+      "repo": "hotchpotch/jev-reranker",
+      "en": "Jev-powered relevance filtering and reranking for RAG in Python — the decision-layer wave's RAG-specific toolkit taking shape.",
+      "zh": "用 Jev 做 RAG 相关性过滤与重排的 Python 库——决策层浪潮的 RAG 专用工具正在成形。"
+    },
+    {
+      "repo": "aifabrice/jev-rag",
+      "en": "Local knowledge search with BM25 + Jev reranking and cited answers — zero vector dependencies.",
+      "zh": "本地知识搜索：BM25 + Jev 重排 + 带引用回答，零向量依赖。"
+    },
+    {
       "repo": "ConardLi/rag-skill",
       "en": "The spark of the RAG-as-skill wave: local knowledge retrieval via hierarchical index files + grep + progressive disclosure — no vectors, no embeddings. Archived; successor: garden-skills.",
       "zh": "RAG-as-skill 浪潮的起点：层级索引文件 + grep + 渐进披露做本地知识检索，无向量无嵌入。已归档，后继为 garden-skills。"

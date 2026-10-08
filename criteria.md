@@ -35,7 +35,7 @@ Promising entries that don't clear the bar yet, tracked in `data/radar.json` and
 
 ## Categories
 
-`kb-products` / `frameworks` / `graphrag` / `parsing` / `evaluation` / `research` / `collections` — defined in `data/projects.json`. A new category requires a PR that explains the gap the current seven fail to cover.
+`kb-products` / `frameworks` / `decision-layer` / `graphrag` / `parsing` / `evaluation` / `research` / `collections` — defined in `data/projects.json`. A new category requires a PR that explains the gap the current ones fail to cover.
 
 ## Neutrality & disclosure
 

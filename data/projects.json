@@ -2,6 +2,7 @@
   "categories": [
     { "id": "kb-products", "title_en": "Knowledge platforms & products", "title_zh": "知识库平台与产品" },
     { "id": "frameworks", "title_en": "Frameworks & engines", "title_zh": "框架与引擎" },
+    { "id": "decision-layer", "title_en": "Decision layer (filter · rerank · route)", "title_zh": "决策层（过滤 · 重排 · 路由）" },
     { "id": "graphrag", "title_en": "GraphRAG & knowledge graphs", "title_zh": "GraphRAG 与知识图谱" },
     { "id": "parsing", "title_en": "Document parsing & multimodal ingestion", "title_zh": "文档解析与多模态摄取" },
     { "id": "evaluation", "title_en": "Evaluation & observability", "title_zh": "评测与可观测性" },
@@ -86,6 +87,30 @@
       "category": "frameworks",
       "en": "Production RAG engine with API, dashboard, and agentic retrieval out of the box.",
       "zh": "R2R：生产级 RAG 引擎，自带 API、看板与 Agentic 检索。"
+    },
+    {
+      "repo": "NandhaKishorM/laya",
+      "category": "decision-layer",
+      "en": "Open-source System-1 decision engine: typed choice/score/yes-no over any text — the open answer to decision-only models, 31k★ in three weeks.",
+      "zh": "开源的 System-1 决策引擎：对任意文本做类型化的选择/打分/是非判断——决策专用模型的开源答案，三周 31k★。"
+    },
+    {
+      "repo": "jaredpalmer/kev",
+      "category": "decision-layer",
+      "en": "Open Jev-like decision models on Qwen 3.5/3.8 you can train and self-host — rerank/filter/route without API lock-in.",
+      "zh": "基于 Qwen 3.5/3.8 的开源 Jev 类决策模型，可自训练自托管——重排/过滤/路由不锁 API。"
+    },
+    {
+      "repo": "TheoLeeCJ/SemIf-OpenJev",
+      "category": "decision-layer",
+      "en": "Semantic ifs from open models on a single 3090 — decision primitives you can run at home, independent of Jev.",
+      "zh": "单张 3090 跑开源模型的语义判断——家里就能跑的决策原语，独立于 Jev。"
+    },
+    {
+      "repo": "nokia-applied-research/AnyJev",
+      "category": "decision-layer",
+      "en": "Nokia Applied Research: turn any LLM into a Jev-style decision model — typed decisions, real probabilities, no training. Apache-2.0.",
+      "zh": "诺基亚研究院：把任意 LLM 变成 Jev 式决策模型——类型化决策、真实概率、免训练，Apache-2.0。"
     },
     {
       "repo": "HKUDS/LightRAG",
