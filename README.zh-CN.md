@@ -20,7 +20,7 @@
 市面上多数 "Awesome RAG" 清单是会慢慢过期的论文目录——一个 3 万 star 的 RAG 平台周二刚发大版本，一年后仍然不在任何一份清单里。本仓库押注三件它们没做的事：
 
 1. **工程与研究并重。** 产品、框架、解析、评测、GraphRAG 与论文享有同等地位——因为前沿现在以仓库的形式交付，而不只是 PDF。
-2. **新鲜度由机器保证。** star 数、活跃日期、每周 arXiv 摘要由 [GitHub Action](.github/workflows/refresh.yml) 每周一自动重生成。表格过期是 bug，不是常态。
+2. **新鲜度由机器保证。** star 数、活跃日期、每周 arXiv 摘要以及新仓库扫描由 [GitHub Action](.github/workflows/refresh.yml) 每周一自动重生成。表格过期是 bug，不是常态。
 3. **同时覆盖两个生态。** 中英文 RAG 社区互相借鉴却很少互读。每个条目都带双语一句话点评。
 
 收录靠规则，不靠感觉：见 **[criteria.md](criteria.md)**。

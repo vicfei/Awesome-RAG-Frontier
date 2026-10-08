@@ -22,6 +22,10 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Draft arXiv digest
         run: python scripts/arxiv_digest.py
+      - name: Sweep GitHub for new RAG repos
+        run: python scripts/github_sweep.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Commit and push
         run: |
           git config user.name "frontier-bot"

@@ -10,7 +10,7 @@ Thanks for helping track the frontier. Three ways in:
 
 ## Add a paper
 
-Edit the **Papers** section of `README.md` **and** `README.zh-CN.md` in the same PR. Keep the one-liner to a single judgment. The weekly arXiv drafts in `news/_drafts/` are good hunting ground.
+Edit the **Papers** section of `README.md` **and** `README.zh-CN.md` in the same PR. Keep the one-liner to a single judgment. The weekly arXiv and GitHub-sweep drafts in `news/_drafts/` are good hunting ground.
 
 ## Report news
 
