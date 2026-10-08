@@ -44,7 +44,7 @@
 | 项目 | 一句话点评 | Stars | 最近推送 |
 | --- | --- | :--: | :--: |
 | [ragflow](https://github.com/infiniflow/ragflow) | 深度文档理解 RAG 引擎，解析能力同类最强，引用可解释。 | 91,839 | 2026-10-08 |
-| [WeKnora](https://github.com/Tencent/WeKnora) | 腾讯开源的大模型知识库平台：混合检索+重排、父子分块、GraphRAG、沙箱内 Agent 技能、自维护 Wiki。Go 实现，MIT 协议。 | 32,597 | 2026-10-08 |
+| [WeKnora](https://github.com/Tencent/WeKnora) | 腾讯开源的大模型知识库平台：混合检索+重排、父子分块、GraphRAG、沙箱内 Agent 技能、自维护 Wiki。Go 实现，MIT 协议。 | 32,599 | 2026-10-08 |
 | [onyx](https://github.com/onyx-dot-app/onyx) | 企业搜索助手（原 Danswer）：40+ 数据源连接器 + 之上的 RAG 问答。 | 32,357 | 2026-10-08 |
 | [kotaemon](https://github.com/Cinnamon/kotaemon) | 简洁的文档问答 Web UI，支持 RAG/GraphRAG 工作流，适合演示与内部工具。 | 25,797 | 2026-07-14 |
 | [rags](https://github.com/run-llama/rags) ⚠️ | 用自然语言定义『你的数据上的 ChatGPT』，基于 LlamaIndex。 | 6,549 | 2024-04-05 |
@@ -66,9 +66,9 @@
 
 | 项目 | 一句话点评 | Stars | 最近推送 |
 | --- | --- | :--: | :--: |
-| [laya](https://github.com/NandhaKishorM/laya) | 开源的 System-1 决策引擎：对任意文本做类型化的选择/打分/是非判断——决策专用模型的开源答案，三周 31k★。 | 31,671 | 2026-10-07 |
-| [kev](https://github.com/jaredpalmer/kev) | 基于 Qwen 3.5/3.8 的开源 Jev 类决策模型，可自训练自托管——重排/过滤/路由不锁 API。 | 8,721 | 2026-10-06 |
-| [SemIf-OpenJev](https://github.com/TheoLeeCJ/SemIf-OpenJev) | 单张 3090 跑开源模型的语义判断——家里就能跑的决策原语，独立于 Jev。 | 4,742 | 2026-09-23 |
+| [laya](https://github.com/NandhaKishorM/laya) | 开源的 System-1 决策引擎：对任意文本做类型化的选择/打分/是非判断——决策专用模型的开源答案，三周 31k★。 | 31,673 | 2026-10-07 |
+| [kev](https://github.com/jaredpalmer/kev) | 基于 Qwen 3.5/3.8 的开源 Jev 类决策模型，可自训练自托管——重排/过滤/路由不锁 API。 | 8,722 | 2026-10-06 |
+| [SemIf-OpenJev](https://github.com/TheoLeeCJ/SemIf-OpenJev) | 单张 3090 跑开源模型的语义判断——家里就能跑的决策原语，独立于 Jev。 | 4,743 | 2026-09-23 |
 | [AnyJev](https://github.com/nokia-applied-research/AnyJev) | 诺基亚研究院：把任意 LLM 变成 Jev 式决策模型——类型化决策、真实概率、免训练，Apache-2.0。 | 1,112 | 2026-10-07 |
 
 ### GraphRAG 与知识图谱
@@ -77,7 +77,7 @@
 | --- | --- | :--: | :--: |
 | [LightRAG](https://github.com/HKUDS/LightRAG) | LightRAG（EMNLP 2025）：简单快速的 GraphRAG，图+向量双层检索。 | 40,017 | 2026-10-03 |
 | [graphrag](https://github.com/microsoft/graphrag) | Microsoft GraphRAG：命名词汇的原始实现，LLM 构建知识图谱回答语料级问题。 | 36,263 | 2026-10-08 |
-| [cognee](https://github.com/topoteretes/cognee) | Cognee：把数据变成知识图谱、服务检索增强 Agent 的记忆引擎。 | 31,702 | 2026-10-08 |
+| [cognee](https://github.com/topoteretes/cognee) | Cognee：把数据变成知识图谱、服务检索增强 Agent 的记忆引擎。 | 31,710 | 2026-10-08 |
 | [graphiti](https://github.com/getzep/graphiti) | Graphiti（Zep）：面向 Agent 记忆的时序知识图谱，边带双时间轴有效性。 | 31,558 | 2026-10-07 |
 | [nano-graphrag](https://github.com/gusye1234/nano-graphrag) ⚠️ | nano-graphrag：极简可改的 GraphRAG 参考实现，读懂模式看它。 | 3,993 | 2026-01-27 |
 
@@ -85,10 +85,10 @@
 
 | 项目 | 一句话点评 | Stars | 最近推送 |
 | --- | --- | :--: | :--: |
-| [markitdown](https://github.com/microsoft/markitdown) | 微软的多面手转换器：Office / PDF / 音频 / 图片 → Markdown，无数 LLM 摄取脚本的默认胶水。 | 189,195 | 2026-10-04 |
-| [MinerU](https://github.com/opendatalab/MinerU) | MinerU：把 PDF/扫描件转成 Markdown/JSON，再丑的版式也能啃，很多 RAG 栈的解析层默认选择。 | 81,301 | 2026-10-06 |
-| [docling](https://github.com/DS4SD/docling) | Docling（IBM）：文档解析库，结构/表格/版面理解能力强。 | 68,540 | 2026-10-08 |
-| [anydoc](https://github.com/firecrawl/anydoc) | Firecrawl 的高保真文档转换引擎（Word / PPT / Excel / EPUB / PDF → 干净输出），也是 WeKnora 内置的解析器。 | 22,617 | 2026-08-28 |
+| [markitdown](https://github.com/microsoft/markitdown) | 微软的多面手转换器：Office / PDF / 音频 / 图片 → Markdown，无数 LLM 摄取脚本的默认胶水。 | 189,197 | 2026-10-04 |
+| [MinerU](https://github.com/opendatalab/MinerU) | MinerU：把 PDF/扫描件转成 Markdown/JSON，再丑的版式也能啃，很多 RAG 栈的解析层默认选择。 | 81,302 | 2026-10-06 |
+| [docling](https://github.com/DS4SD/docling) | Docling（IBM）：文档解析库，结构/表格/版面理解能力强。 | 68,542 | 2026-10-08 |
+| [anydoc](https://github.com/firecrawl/anydoc) | Firecrawl 的高保真文档转换引擎（Word / PPT / Excel / EPUB / PDF → 干净输出），也是 WeKnora 内置的解析器。 | 22,620 | 2026-08-28 |
 | [unstructured](https://github.com/Unstructured-IO/unstructured) | Unstructured：摄取层事实标准，任意文档格式 → 干净的类型化元素。 | 15,549 | 2026-10-08 |
 | [PixelRAG](https://github.com/StarTrail-org/PixelRAG) | PixelRAG（arXiv:2606.28344）：像素级 RAG，直接在渲染像素上检索，跳过文本解析。 | 10,217 | 2026-10-01 |
 
@@ -96,7 +96,7 @@
 
 | 项目 | 一句话点评 | Stars | 最近推送 |
 | --- | --- | :--: | :--: |
-| [langfuse](https://github.com/langfuse/langfuse) | Langfuse：开源 LLM 可观测性，端到端追踪 RAG 管线并对轨迹做评测。 | 35,528 | 2026-10-08 |
+| [langfuse](https://github.com/langfuse/langfuse) | Langfuse：开源 LLM 可观测性，端到端追踪 RAG 管线并对轨迹做评测。 | 35,529 | 2026-10-08 |
 | [deepeval](https://github.com/confident-ai/deepeval) | DeepEval：LLM 评测框架，含 RAG 指标，pytest 风格，自带 LLM 裁判。 | 18,704 | 2026-10-07 |
 | [ragas](https://github.com/vibrantlabsai/ragas) ⚠️ | Ragas：事实标准的 RAG 评测库：忠实度、答案相关性、上下文精确率/召回率。 | 15,966 | 2026-02-24 |
 | [phoenix](https://github.com/Arize-ai/phoenix) | Phoenix：LLM/Agent 应用的追踪与评测，含检索 span 分析。 | 11,755 | 2026-10-08 |
@@ -105,7 +105,7 @@
 
 | 项目 | 一句话点评 | Stars | 最近推送 |
 | --- | --- | :--: | :--: |
-| [ai-engineering-hub](https://github.com/patchy631/ai-engineering-hub) | 以 notebook 为主的教程库（LLM / RAG / Agent），RAG 是头牌主线之一而非点缀。 | 38,256 | 2026-09-10 |
+| [ai-engineering-hub](https://github.com/patchy631/ai-engineering-hub) | 以 notebook 为主的教程库（LLM / RAG / Agent），RAG 是头牌主线之一而非点缀。 | 38,255 | 2026-09-10 |
 | [RAG_Techniques](https://github.com/NirDiamant/RAG_Techniques) | 60+ 种 RAG 技术的可运行 notebook 合集，技术食谱书。 | 29,697 | 2026-09-21 |
 | [llm-universe](https://github.com/datawhalechina/llm-universe) | Datawhale 面向小白的中文大模型应用开发教程，压轴项目是完整的 RAG 知识库助手。 | 14,094 | 2026-08-27 |
 | [all-in-rag](https://github.com/datawhalechina/all-in-rag) | Datawhale 出品的 RAG 全栈教程书（中文，在线可读）。 | 11,828 | 2026-09-30 |
@@ -142,13 +142,16 @@ _每周自动刷新，最近一次：2026-10-09。⚠️ = 已归档或沉寂超
 
 | 项目 | 为何值得关注 | Stars | 最近推送 |
 | --- | --- | :--: | :--: |
+| [InkDoc](https://github.com/AbdoslamB/InkDoc) | 本地桌面应用，基于 MarkItDown 与 Docling 把文档一键转成 AI 可用的 Markdown。 | 53 | 2026-10-03 |
 | [rag-skill](https://github.com/ConardLi/rag-skill) | RAG-as-skill 浪潮的起点：层级索引文件 + grep + 渐进披露做本地知识检索，无向量无嵌入。已归档，后继为 garden-skills。 | 715 | 2026-04-25 |
 | [rag-to-skill](https://github.com/Jia-Hong-Peng/rag-to-skill) | 把 JSONL RAG 语料转成可安装、可审计的 Claude Code skill——用带来源锚点的精选知识包替代运行时检索。 | 68 | 2026-05-10 |
+| [jev-doc-search](https://github.com/VectifyAI/jev-doc-search) | 用 Jev 决策 + PageIndex 检索做长文档搜索——决策层浪潮蔓延到文档检索。 | 120 | 2026-10-03 |
 | [jev-rag](https://github.com/aifabrice/jev-rag) | 本地知识搜索：BM25 + Jev 重排 + 带引用回答，零向量依赖。 | 9 | 2026-10-07 |
 | [enowx-rag](https://github.com/enowdev/enowx-rag) | Go 实现的 MCP 服务器，为编码 Agent 提供按项目持久化的 RAG 记忆：Qdrant/pgvector/Chroma、混合检索、重排、内嵌看板。 | 40 | 2026-07-16 |
 | [jev-reranker](https://github.com/hotchpotch/jev-reranker) | 用 Jev 做 RAG 相关性过滤与重排的 Python 库——决策层浪潮的 RAG 专用工具正在成形。 | 42 | 2026-09-21 |
 | [RAG-Data-Curator-Agent-Skill](https://github.com/leichu0612-byte/RAG-Data-Curator-Agent-Skill) | 结构感知分块（节 → 标题 → 段落 → 句子）打包成 Agent skill + CLI，带溯源元数据和质量报告。 | 86 | 2026-09-11 |
 | [Skill-First-Hybrid-RAG](https://github.com/lyxhnu/Skill-First-Hybrid-RAG) ⚠️ | Skill 优先的 Agent 工作台，skill 证据不足时回退到向量 + BM25 混合检索，自带 Ragas 评测与可编辑的 Markdown 记忆，研究级。 | 95 | 2026-03-24 |
+| [docflare-ai](https://github.com/p10node/docflare-ai) | 一行 <script> 嵌入的文档问答与站内搜索，全部跑在 Cloudflare 免费额度上（Workers AI + Vectorize + D1）。 | 22 | 2026-10-08 |
 
 _未达门槛观察线 — 自动刷新于 2026-10-09。达到完整收录标准后自动毕业进入主表（见 criteria.md）。_
 
