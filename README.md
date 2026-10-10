@@ -27,7 +27,7 @@ Inclusion is rule-based, not vibes-based: see **[criteria.md](criteria.md)**.
 
 ## Contents
 
-[Why another RAG list?](#why-another-rag-list) · [This Month in RAG](#news) · [Projects](#projects) · [Radar](#radar) · [Papers](#papers-curated) · [Benchmarks](#benchmarks-worth-knowing) · [Enterprise practices](#practices) · [Contributing](#contributing) · [License](#license)
+[Why another RAG list?](#why-another-rag-list) · [This Month in RAG](#news) · [Projects](#projects) · [Radar](#radar) · [Papers](#papers-curated) · [Benchmarks](#benchmarks-worth-knowing) · [Enterprise practices](#practices) · [Routing](#routing) · [Contributing](#contributing) · [License](#license)
 
 <a id="news"></a>
 
@@ -214,6 +214,30 @@ How RAG actually gets operated inside companies — first-party engineering post
 | [得物：RAG 在开放平台智能答疑的探索](https://mp.weixin.qq.com/s/6yhYLKfNrumSMs7ELvktjg) | 得物技术 | — | Chinese e-commerce practice: from naive KB QA toward structured, evaluation-driven answering. |
 
 Dates as published by the source; PRs may correct or add — the section grows one verified entry at a time.
+
+<a id="routing"></a>
+
+## 🧭 Routing knowledge: material × query → architecture
+
+Feature lists keep growing — multimodal, graphs, workflows, skills, MCP, sandboxes — while enterprises stay unsure what to actually build. The gap isn't capability; it's selection logic. Knowledge isn't uniformly "documents", and the right architecture follows two axes: what the material *is*, and what the query *does*.
+
+| Material | What it really is | Typical query | Right shape |
+| --- | --- | --- | --- |
+| Finance / ops spreadsheets | Tabular, schema-bearing, computable | "Q3 regional total?" | Text-to-SQL or a semantic layer + code execution — vector retrieval destroys numeric semantics |
+| Strategy / HR Word and PPT | Narrative, policy-shaped | "What's the travel cap?" | Classic RAG; PPT decks are parsing-bound |
+| Legal / engineering PDFs | Layout-heavy, citation-sensitive | "Which clause says this?" | High-fidelity parsing (MinerU / docling / PixelRAG) + mandatory citations |
+| Core-system SQL tables | Live data, not documents | "Current inventory?" | Query in place + sync — never "import into the KB" |
+| Any of the above | Time-sensitive | "As of right now?" | Incremental sync with freshness SLAs, not batch re-embedding |
+
+What holds up in practice (case studies under [Enterprise practices](#practices)):
+
+1. Start with one department's highest-frequency question, not the whole corpus.
+2. Classify knowledge assets before choosing tech: narrative documents / tables / live data.
+3. Route by query type: text → retrieval; computation → SQL or code execution; freshness → sync architecture.
+4. Evaluate per department — recall and citation faithfulness for document QA, answer correctness for computed results. One ruler doesn't fit both.
+5. Governance decides outcomes: ownership, update responsibility, permission boundaries — the unsexy part that separates deployments from stalled pilots.
+
+The current waves are the market internalizing this routing: agentic RAG moves the decision into the system, decision-layer models make each routing call cheap, and skill-style RAG attaches different handling per material type.
 
 ## Contributing
 
