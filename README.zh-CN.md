@@ -27,7 +27,7 @@
 
 ## 目录
 
-[为什么再做一个 RAG 清单？](#为什么再做一个-rag-清单) · [本月 RAG 动态](#news) · [项目](#项目) · [雷达](#radar) · [论文](#论文人工精选) · [基准](#值得了解的基准) · [企业落地实践](#practices) · [知识路由](#routing) · [参与贡献](#参与贡献) · [许可证](#许可证)
+[为什么再做一个 RAG 清单？](#为什么再做一个-rag-清单) · [本月 RAG 动态](#news) · [项目](#项目) · [雷达](#radar) · [论文](#论文人工精选) · [基准](#值得了解的基准) · [企业落地实践](#practices) · [知识路由](#routing) · [知识形态](#forms) · [参与贡献](#参与贡献) · [许可证](#许可证)
 
 <a id="news"></a>
 
@@ -212,6 +212,10 @@ RAG 在企业里究竟怎么运营——一手工程博客与可验证的案例�
 | [What We Learned from a Year of Building with LLMs（I & II）](https://www.oreilly.com/radar/what-we-learned-from-a-year-of-building-with-llms-part-i/) | O'Reilly | 2023 | 生产级 LLM 应用的经典总结：评测先行、架构从简、成本是设计轴。至今仍然对。 |
 | [Milvus 在携程酒店搜索中的应用](https://zilliz.com.cn/blog/usercase-milvus-trip) | Zilliz / 携程 | 2024 | 旅游行业规模的向量检索：真实排序约束下的召回工程。 |
 | [得物：RAG 在开放平台智能答疑的探索](https://mp.weixin.qq.com/s/6yhYLKfNrumSMs7ELvktjg) | 得物技术 | — | 中文电商实践：从朴素知识库问答走向结构化、评测驱动的答疑。 |
+| [从 RAG 到数据资产](https://www.dtstack.com/zh-cn/blogs/812-from-rag-to-data-assets-how-to-build-a-landing-oriented-enterprise-level-agent-knowledge-base) | 袋鼠云 DTStack | 2026 | 按数据形态路由访问方式——文档走 agentic 检索、结构化走 text-to-SQL、确定关系走图谱；带血缘与权限的资产目录是前提。（厂商工程博客） |
+| [OODER 六层知识飞轮](https://cloud.tencent.com.cn/developer/article/2718117) | 腾讯云开发者社区 | 2026 | 值得抄的工程细节：RRF 混合检索、MD5 指纹增量索引、800/100 分块、每级降级容错。（有产品背景，技术含量高） |
+| [按部门的问答策略引擎](https://www.datagrand.com/blog/%e7%9f%a5%e8%af%86%e5%ba%93-%e4%b8%80%e5%88%80%e5%88%87%ef%bc%9f%e8%be%be%e8%a7%82%e4%b8%93%e5%b1%9e%e9%97%ae%e7%ad%94%e7%ad%96%e7%95%a5%e5%bc%95%e6%93%8e%e6%8c%89%e9%83%a8%e9%97%a8.html) | 达观数据 | 2025 | 厂商软文但论点定义性：一刀切答题失效，需按部门定制问答策略（角色-部门-用户三维权限、政策时效适配）。 |
+| [企业知识库问答 Multi-Agent 实战](https://adp.tencentcloud.com/zh/blog/enterprise-knowledge-qa-multiagent) | 腾讯云 ADP | 2026 | 平台教程，模式可迁移：主 Agent 按意图分发部门子 Agent，标签分域检索，显式兜底。 |
 
 日期以来源发布为准；欢迎 PR 修正或补充——本节一次只长一条经过验证的条目。
 
@@ -238,6 +242,39 @@ RAG 在企业里究竟怎么运营——一手工程博客与可验证的案例�
 5. 治理决定成败：素材所有权、更新责任、权限边界——区分"落地"与"停在试点"的正是这些不性感的部分。
 
 当前的几个浪潮正是市场在把这套路由内化：agentic RAG 把决策收进系统，决策层模型让每次路由调用变得廉价，skill 式 RAG 按素材类型挂接不同处理。
+
+
+<a id="forms"></a>
+
+## 🗂 知识形态：组织好的知识长什么样
+
+上面的路由决定管线；这张表决定知识作为产物的形态。提炼自《[从 RAG 到知识编译](https://mp.weixin.qq.com/s/G5_XI7ZgCoyrfZGx6cEcow)》，完整论述与开放问题见 [docs/enterprise-kb-playbook.md](docs/enterprise-kb-playbook.md)。
+
+| 形态 | 组织单元 | 适合 |
+| --- | --- | --- |
+| RAG | 检索证据 | 从大量资料中找到并综合信息 |
+| FAQ | 问题 + 标准答案 | 稳定回答高频问题 |
+| Wiki | 页面 + 内部链接 | 长期沉淀领域知识 |
+| Graph | 实体 + 关系 | 探索对象之间的关联 |
+| Tree | 父子主题 | 按主题逐级理解 |
+| PageIndex | 长文档章节索引节点 | 定位复杂长文档中的信息 |
+| MindMap | 中心主题 + 分支 | 快速把握知识整体结构 |
+| Timeline | 时间 + 事件 | 理解演化与历史 |
+| Skills | 任务说明 + 操作资源 | 支撑 Agent 复用操作知识 |
+| PageCard | 页面摘要 + 链接 | 快速发现与筛选，不替代内容本身 |
+
+按素材/任务优先生成的形态：
+
+| 素材 / 任务 | 优先形态 |
+| --- | --- |
+| 产品帮助文档 | FAQ · RAG · Wiki |
+| 架构文档 | Graph · Wiki · MindMap |
+| 长研究报告 | PageIndex · RAG · PageCard |
+| 行业知识 | Tree · Wiki · MindMap |
+| 项目过程记录 | Timeline · Wiki · PageCard |
+| SOP 与操作手册 | Skills · Wiki · FAQ |
+
+多形态共存时应建立共享知识底座（Document / Content / Topic / Entity / Relation / Fact / Event / Page / Procedure 统一对象模型），而不是每种形态各自维护解析与溯源管线。
 
 ## 参与贡献
 

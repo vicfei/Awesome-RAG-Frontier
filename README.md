@@ -27,7 +27,7 @@ Inclusion is rule-based, not vibes-based: see **[criteria.md](criteria.md)**.
 
 ## Contents
 
-[Why another RAG list?](#why-another-rag-list) · [This Month in RAG](#news) · [Projects](#projects) · [Radar](#radar) · [Papers](#papers-curated) · [Benchmarks](#benchmarks-worth-knowing) · [Enterprise practices](#practices) · [Routing](#routing) · [Contributing](#contributing) · [License](#license)
+[Why another RAG list?](#why-another-rag-list) · [This Month in RAG](#news) · [Projects](#projects) · [Radar](#radar) · [Papers](#papers-curated) · [Benchmarks](#benchmarks-worth-knowing) · [Enterprise practices](#practices) · [Routing](#routing) · [Knowledge forms](#forms) · [Contributing](#contributing) · [License](#license)
 
 <a id="news"></a>
 
@@ -212,6 +212,10 @@ How RAG actually gets operated inside companies — first-party engineering post
 | [What We Learned from a Year of Building with LLMs (I & II)](https://www.oreilly.com/radar/what-we-learned-from-a-year-of-building-with-llms-part-i/) | O'Reilly | 2023 | The canonical production synthesis — eval-first, boring architecture, cost as a design axis. Still right. |
 | [Milvus in Ctrip hotel search](https://zilliz.com.cn/blog/usercase-milvus-trip) | Zilliz / Ctrip | 2024 | Vector retrieval at travel-industry scale: recall engineering under real ranking constraints. |
 | [得物：RAG 在开放平台智能答疑的探索](https://mp.weixin.qq.com/s/6yhYLKfNrumSMs7ELvktjg) | 得物技术 | — | Chinese e-commerce practice: from naive KB QA toward structured, evaluation-driven answering. |
+| [From RAG to Data Assets](https://www.dtstack.com/zh-cn/blogs/812-from-rag-to-data-assets-how-to-build-a-landing-oriented-enterprise-level-agent-knowledge-base) | DTStack (袋鼠云) | 2026 | Route access by data form — agentic retrieval for docs, text-to-SQL for structured data, graphs for deterministic relations; an asset catalog with lineage and permissions is the precondition. (vendor engineering blog) |
+| [OODER's six-layer knowledge flywheel](https://cloud.tencent.com.cn/developer/article/2718117) | Tencent Cloud community | 2026 | Engineering detail worth stealing: RRF hybrid retrieval, MD5 fingerprints for incremental indexing, 800/100 chunking, degradation paths at every stage. (product-backed, technical) |
+| [Per-department QA strategy engine](https://www.datagrand.com/blog/%e7%9f%a5%e8%af%86%e5%ba%93-%e4%b8%80%e5%88%80%e5%88%87%ef%bc%9f%e8%be%be%e8%a7%82%e4%b8%93%e5%b1%9e%e9%97%ae%e7%ad%94%e7%ad%96%e7%95%a5%e5%bc%95%e6%93%8e%e6%8c%89%e9%83%a8%e9%97%a8.html) | DataGrand | 2025 | Vendor pitch, thesis-defining: one-size-fits-all answering fails — per-department QA strategies with role-department-user permissions and freshness-aware rules. |
+| [Enterprise KB QA with multi-agent](https://adp.tencentcloud.com/zh/blog/enterprise-knowledge-qa-multiagent) | Tencent Cloud ADP | 2026 | Platform tutorial with a transferable pattern: a main agent routes intent to department sub-agents over tag-partitioned retrieval, with explicit fallbacks. |
 
 Dates as published by the source; PRs may correct or add — the section grows one verified entry at a time.
 
@@ -238,6 +242,39 @@ What holds up in practice (case studies under [Enterprise practices](#practices)
 5. Governance decides outcomes: ownership, update responsibility, permission boundaries — the unsexy part that separates deployments from stalled pilots.
 
 The current waves are the market internalizing this routing: agentic RAG moves the decision into the system, decision-layer models make each routing call cheap, and skill-style RAG attaches different handling per material type.
+
+
+<a id="forms"></a>
+
+## 🗂 Knowledge forms: what organized knowledge looks like
+
+Routing (above) decides the pipeline; this table decides the form knowledge takes as a product. Distilled from the essay [从 RAG 到知识编译](https://mp.weixin.qq.com/s/G5_XI7ZgCoyrfZGx6cEcow); the full treatment with open questions lives in [docs/enterprise-kb-playbook.md](docs/enterprise-kb-playbook.md).
+
+| Form | Organizing unit | Good for |
+| --- | --- | --- |
+| RAG | retrieved evidence | finding and synthesizing across many documents |
+| FAQ | question + canonical answer | stable, high-frequency questions |
+| Wiki | pages + internal links | long-lived domain knowledge |
+| Graph | entities + relations | exploring how things connect |
+| Tree | parent-child topics | understanding a domain level by level |
+| PageIndex | section nodes of long documents | locating content inside complex documents |
+| MindMap | center topic + branches | grasping a topic's shape at a glance |
+| Timeline | events in time order | evolution, history, retrospectives |
+| Skills | task instructions + resources | reusable agent procedures |
+| PageCard | page summary + link | discovery and triage, not content itself |
+
+First forms to generate, by material/task:
+
+| Material / task | Forms first |
+| --- | --- |
+| Product help docs | FAQ · RAG · Wiki |
+| Architecture docs | Graph · Wiki · MindMap |
+| Long research reports | PageIndex · RAG · PageCard |
+| Industry knowledge | Tree · Wiki · MindMap |
+| Project records | Timeline · Wiki · PageCard |
+| SOPs and runbooks | Skills · Wiki · FAQ |
+
+A multi-form KB should share one substrate (documents, content units, topics, entities, relations, facts, events, pages, procedures) instead of rebuilding parsing and provenance per form.
 
 ## Contributing
 
