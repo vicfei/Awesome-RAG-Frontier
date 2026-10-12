@@ -43,7 +43,7 @@ A short, dated, sourced changelog of what shipped — start with [news/2026-09.m
 
 | Project | Why it matters | Stars | Last push |
 | --- | --- | :--: | :--: |
-| [ragflow](https://github.com/infiniflow/ragflow) | Deep-document-understanding RAG engine; strongest-in-class parsing and explainable citations. | 92,069 | 2026-10-12 |
+| [ragflow](https://github.com/infiniflow/ragflow) | Deep-document-understanding RAG engine; strongest-in-class parsing and explainable citations. | 92,068 | 2026-10-12 |
 | [WeKnora](https://github.com/Tencent/WeKnora) | Tencent's open-source LLM knowledge platform: hybrid retrieval + rerank, parent-child chunking, GraphRAG, agent skills in sandboxes, self-maintaining wiki. Go, MIT. | 33,488 | 2026-10-12 |
 | [onyx](https://github.com/onyx-dot-app/onyx) | Enterprise search assistant (ex-Danswer): 40+ data-source connectors + RAG chat over them. | 32,418 | 2026-10-12 |
 | [kotaemon](https://github.com/Cinnamon/kotaemon) | Clean document-chat web UI for RAG (and GraphRAG) workflows; great for demos and internal tools. | 25,799 | 2026-07-14 |
@@ -66,7 +66,7 @@ A short, dated, sourced changelog of what shipped — start with [news/2026-09.m
 
 | Project | Why it matters | Stars | Last push |
 | --- | --- | :--: | :--: |
-| [laya](https://github.com/NandhaKishorM/laya) | Open-source System-1 decision engine: typed choice/score/yes-no over any text — the open answer to decision-only models, 31k★ in three weeks. | 32,523 | 2026-10-12 |
+| [laya](https://github.com/NandhaKishorM/laya) | Open-source System-1 decision engine: typed choice/score/yes-no over any text — the open answer to decision-only models, 31k★ in three weeks. | 32,524 | 2026-10-12 |
 | [kev](https://github.com/jaredpalmer/kev) | Open Jev-like decision models on Qwen 3.5/3.8 you can train and self-host — rerank/filter/route without API lock-in. | 8,998 | 2026-10-12 |
 | [SemIf-OpenJev](https://github.com/TheoLeeCJ/SemIf-OpenJev) | Semantic ifs from open models on a single 3090 — decision primitives you can run at home, independent of Jev. | 4,794 | 2026-09-23 |
 | [AnyJev](https://github.com/nokia-applied-research/AnyJev) | Nokia Applied Research: turn any LLM into a Jev-style decision model — typed decisions, real probabilities, no training. Apache-2.0. | 1,218 | 2026-10-07 |
@@ -85,10 +85,10 @@ A short, dated, sourced changelog of what shipped — start with [news/2026-09.m
 
 | Project | Why it matters | Stars | Last push |
 | --- | --- | :--: | :--: |
-| [markitdown](https://github.com/microsoft/markitdown) | Microsoft's swiss-army converter: Office / PDF / audio / images → Markdown; the default glue in countless LLM ingestion scripts. | 189,764 | 2026-10-04 |
+| [markitdown](https://github.com/microsoft/markitdown) | Microsoft's swiss-army converter: Office / PDF / audio / images → Markdown; the default glue in countless LLM ingestion scripts. | 189,765 | 2026-10-04 |
 | [MinerU](https://github.com/opendatalab/MinerU) | PDF/scans → markdown/JSON extraction that survives ugly layouts; the parsing layer many RAG stacks now default to. | 81,549 | 2026-10-12 |
 | [docling](https://github.com/DS4SD/docling) | IBM's document parsing library: rich structure, tables, and layout understanding. | 68,760 | 2026-10-12 |
-| [anydoc](https://github.com/firecrawl/anydoc) | Firecrawl's high-fidelity document conversion engine (Word / PPT / Excel / EPUB / PDF → clean output); also the in-process parser inside WeKnora. | 22,769 | 2026-08-28 |
+| [anydoc](https://github.com/firecrawl/anydoc) | Firecrawl's high-fidelity document conversion engine (Word / PPT / Excel / EPUB / PDF → clean output); also the in-process parser inside WeKnora. | 22,770 | 2026-08-28 |
 | [unstructured](https://github.com/Unstructured-IO/unstructured) | The ingest-layer standard: any document format → clean typed elements. | 15,559 | 2026-10-10 |
 | [PixelRAG](https://github.com/StarTrail-org/PixelRAG) | Pixel-level RAG (arXiv:2606.28344): retrieve over rendered pixels, skip text parsing entirely. | 10,254 | 2026-10-08 |
 
@@ -106,7 +106,7 @@ A short, dated, sourced changelog of what shipped — start with [news/2026-09.m
 | Project | Why it matters | Stars | Last push |
 | --- | --- | :--: | :--: |
 | [ai-engineering-hub](https://github.com/patchy631/ai-engineering-hub) | Notebook-heavy tutorial hub (LLM / RAG / agents); RAG is a headline pillar, not a footnote. | 38,292 | 2026-09-10 |
-| [RAG_Techniques](https://github.com/NirDiamant/RAG_Techniques) | 60+ RAG techniques as runnable notebooks — the technique cookbook. | 29,824 | 2026-10-11 |
+| [RAG_Techniques](https://github.com/NirDiamant/RAG_Techniques) | 60+ RAG techniques as runnable notebooks — the technique cookbook. | 29,825 | 2026-10-11 |
 | [llm-universe](https://github.com/datawhalechina/llm-universe) | Datawhale's beginner Chinese course for LLM app development; the capstone is a full RAG knowledge-base assistant. | 14,117 | 2026-08-27 |
 | [all-in-rag](https://github.com/datawhalechina/all-in-rag) | Datawhale's full-stack Chinese RAG tutorial book (online-readable). | 12,013 | 2026-09-30 |
 | [production-agentic-rag-course](https://github.com/jamwithai/production-agentic-rag-course) | Hands-on course: agentic RAG patterns that survive production. | 9,735 | 2026-06-05 |
@@ -148,6 +148,7 @@ Promising entries that don't clear the bar yet — typically early-stage or sing
 | [jev-doc-search](https://github.com/VectifyAI/jev-doc-search) | Long-document search combining Jev decisions with PageIndex retrieval — the decision-layer wave reaching document search. | 145 | 2026-10-03 |
 | [jev-rag](https://github.com/aifabrice/jev-rag) | Local knowledge search with BM25 + Jev reranking and cited answers — zero vector dependencies. | 10 | 2026-10-11 |
 | [enowx-rag](https://github.com/enowdev/enowx-rag) | Go MCP server giving coding agents persistent per-project RAG memory: Qdrant/pgvector/Chroma, hybrid retrieval, rerank, embedded dashboard. | 40 | 2026-07-16 |
+| [IHMT-MEMORY](https://github.com/gonzaroman/IHMT-MEMORY) | Long-term memory for coding agents (Claude Code, Codex, opencode) as a tree of plain files — the plain-files knowledge wave applied to agent memory. | 24 | 2026-10-10 |
 | [jev-reranker](https://github.com/hotchpotch/jev-reranker) | Jev-powered relevance filtering and reranking for RAG in Python — the decision-layer wave's RAG-specific toolkit taking shape. | 44 | 2026-09-21 |
 | [RAG-Data-Curator-Agent-Skill](https://github.com/leichu0612-byte/RAG-Data-Curator-Agent-Skill) | Structure-aware chunking (section → heading → paragraph → sentence) packaged as an agent skill + CLI, with provenance metadata and quality reports. | 86 | 2026-09-11 |
 | [Skill-First-Hybrid-RAG](https://github.com/lyxhnu/Skill-First-Hybrid-RAG) ⚠️ | Skill-first agent workbench that falls back to vector + BM25 retrieval when skill evidence misses; ships Ragas evals and editable Markdown memory. Research-grade. | 95 | 2026-03-24 |
@@ -191,6 +192,13 @@ Curated by hand; fed weekly by the arXiv digest drafts in [`news/_drafts/`](news
 | [The Fellowship of the Query: Learning Retrieval Actions](https://arxiv.org/abs/2609.28653) | Trajectory-fine-tunes small LMs as next-action controllers for RAG — decompose, search, reformulate, verify, stop. The agentic-RAG thesis, learned end to end. |
 | [Return or Revise? Learning When Revision Helps Retrieval-Augmented QA](https://arxiv.org/abs/2609.30087) | Learns whether retrieved evidence is worth a revision — the return-vs-revise decision, trained instead of heuristic. |
 | [VeriSpeak](https://arxiv.org/abs/2609.30227) | Probe benchmark for retrieval-augmented fact-checking over speech — RAG's multimodal frontier moves past text. |
+| [Stale-Document Poisoning](https://arxiv.org/abs/2609.31342) | Outdated retrieved evidence overrides correct parametric answers — the freshness axis of routing, named and measured. |
+| [Reasoning-Language Alignment in Monolingual RAG](https://arxiv.org/abs/2610.03136) | Reasoning language and prompt language interact in RAG accuracy — one for the bilingual reality of deployment. |
+| [DBRAG](https://arxiv.org/abs/2610.07622) | Multi-table retrieval-augmented generation for complex database queries — the tables axis of routing, formalized. |
+| [UNREAL](https://arxiv.org/abs/2610.08463) | One evidence-selection mechanism from a single long prompt to a whole corpus — a unifier for the long-context-vs-RAG debate. |
+| [Agentic AutoRAG](https://arxiv.org/abs/2610.08452) | Reasoning-driven agents tune the RAG pipeline itself; hyperparameter search becomes an agent job. |
+| [Placebo-Controlled Structure Ablation](https://arxiv.org/abs/2610.10170) | Four document-structure treatments tested with placebo controls — the chunking-orthodoxy check the field needed. |
+| [RIT-RAG](https://arxiv.org/abs/2610.11370) | Retrieval-induced trees keep agentic RAG anchored to document structure instead of isolated chunks. |
 
 ## Benchmarks worth knowing
 
