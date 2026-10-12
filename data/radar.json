@@ -26,6 +26,11 @@
       "zh": "本地知识搜索：BM25 + Jev 重排 + 带引用回答，零向量依赖。"
     },
     {
+      "repo": "vicfei/jev-rag-zh-benchmark",
+      "en": "First reproducible Chinese reranking benchmark for Jev (C-MTEB/T2Reranking hard negatives): +13.3 nDCG@5 over BM25 with confidence intervals, frozen protocol, full per-call logs. Maintainer's own project — disclosed.",
+      "zh": "首个可复现的 Jev 中文重排基准（C-MTEB/T2Reranking 难负例）：比 BM25 高 13.3 个 nDCG@5 点（含置信区间），协议冻结、逐调用日志全公开。维护者本人项目——按规则披露。"
+    },
+    {
       "repo": "ConardLi/rag-skill",
       "en": "The spark of the RAG-as-skill wave: local knowledge retrieval via hierarchical index files + grep + progressive disclosure — no vectors, no embeddings. Archived; successor: garden-skills.",
       "zh": "RAG-as-skill 浪潮的起点：层级索引文件 + grep + 渐进披露做本地知识检索，无向量无嵌入。已归档，后继为 garden-skills。"
