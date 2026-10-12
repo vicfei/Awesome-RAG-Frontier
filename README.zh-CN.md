@@ -43,7 +43,7 @@
 
 | 项目 | 一句话点评 | Stars | 最近推送 |
 | --- | --- | :--: | :--: |
-| [ragflow](https://github.com/infiniflow/ragflow) | 深度文档理解 RAG 引擎，解析能力同类最强，引用可解释。 | 92,069 | 2026-10-12 |
+| [ragflow](https://github.com/infiniflow/ragflow) | 深度文档理解 RAG 引擎，解析能力同类最强，引用可解释。 | 92,068 | 2026-10-12 |
 | [WeKnora](https://github.com/Tencent/WeKnora) | 腾讯开源的大模型知识库平台：混合检索+重排、父子分块、GraphRAG、沙箱内 Agent 技能、自维护 Wiki。Go 实现，MIT 协议。 | 33,488 | 2026-10-12 |
 | [onyx](https://github.com/onyx-dot-app/onyx) | 企业搜索助手（原 Danswer）：40+ 数据源连接器 + 之上的 RAG 问答。 | 32,418 | 2026-10-12 |
 | [kotaemon](https://github.com/Cinnamon/kotaemon) | 简洁的文档问答 Web UI，支持 RAG/GraphRAG 工作流，适合演示与内部工具。 | 25,799 | 2026-07-14 |
@@ -66,7 +66,7 @@
 
 | 项目 | 一句话点评 | Stars | 最近推送 |
 | --- | --- | :--: | :--: |
-| [laya](https://github.com/NandhaKishorM/laya) | 开源的 System-1 决策引擎：对任意文本做类型化的选择/打分/是非判断——决策专用模型的开源答案，三周 31k★。 | 32,523 | 2026-10-12 |
+| [laya](https://github.com/NandhaKishorM/laya) | 开源的 System-1 决策引擎：对任意文本做类型化的选择/打分/是非判断——决策专用模型的开源答案，三周 31k★。 | 32,524 | 2026-10-12 |
 | [kev](https://github.com/jaredpalmer/kev) | 基于 Qwen 3.5/3.8 的开源 Jev 类决策模型，可自训练自托管——重排/过滤/路由不锁 API。 | 8,998 | 2026-10-12 |
 | [SemIf-OpenJev](https://github.com/TheoLeeCJ/SemIf-OpenJev) | 单张 3090 跑开源模型的语义判断——家里就能跑的决策原语，独立于 Jev。 | 4,794 | 2026-09-23 |
 | [AnyJev](https://github.com/nokia-applied-research/AnyJev) | 诺基亚研究院：把任意 LLM 变成 Jev 式决策模型——类型化决策、真实概率、免训练，Apache-2.0。 | 1,218 | 2026-10-07 |
@@ -85,10 +85,10 @@
 
 | 项目 | 一句话点评 | Stars | 最近推送 |
 | --- | --- | :--: | :--: |
-| [markitdown](https://github.com/microsoft/markitdown) | 微软的多面手转换器：Office / PDF / 音频 / 图片 → Markdown，无数 LLM 摄取脚本的默认胶水。 | 189,764 | 2026-10-04 |
+| [markitdown](https://github.com/microsoft/markitdown) | 微软的多面手转换器：Office / PDF / 音频 / 图片 → Markdown，无数 LLM 摄取脚本的默认胶水。 | 189,765 | 2026-10-04 |
 | [MinerU](https://github.com/opendatalab/MinerU) | MinerU：把 PDF/扫描件转成 Markdown/JSON，再丑的版式也能啃，很多 RAG 栈的解析层默认选择。 | 81,549 | 2026-10-12 |
 | [docling](https://github.com/DS4SD/docling) | Docling（IBM）：文档解析库，结构/表格/版面理解能力强。 | 68,760 | 2026-10-12 |
-| [anydoc](https://github.com/firecrawl/anydoc) | Firecrawl 的高保真文档转换引擎（Word / PPT / Excel / EPUB / PDF → 干净输出），也是 WeKnora 内置的解析器。 | 22,769 | 2026-08-28 |
+| [anydoc](https://github.com/firecrawl/anydoc) | Firecrawl 的高保真文档转换引擎（Word / PPT / Excel / EPUB / PDF → 干净输出），也是 WeKnora 内置的解析器。 | 22,770 | 2026-08-28 |
 | [unstructured](https://github.com/Unstructured-IO/unstructured) | Unstructured：摄取层事实标准，任意文档格式 → 干净的类型化元素。 | 15,559 | 2026-10-10 |
 | [PixelRAG](https://github.com/StarTrail-org/PixelRAG) | PixelRAG（arXiv:2606.28344）：像素级 RAG，直接在渲染像素上检索，跳过文本解析。 | 10,254 | 2026-10-08 |
 
@@ -106,7 +106,7 @@
 | 项目 | 一句话点评 | Stars | 最近推送 |
 | --- | --- | :--: | :--: |
 | [ai-engineering-hub](https://github.com/patchy631/ai-engineering-hub) | 以 notebook 为主的教程库（LLM / RAG / Agent），RAG 是头牌主线之一而非点缀。 | 38,292 | 2026-09-10 |
-| [RAG_Techniques](https://github.com/NirDiamant/RAG_Techniques) | 60+ 种 RAG 技术的可运行 notebook 合集，技术食谱书。 | 29,824 | 2026-10-11 |
+| [RAG_Techniques](https://github.com/NirDiamant/RAG_Techniques) | 60+ 种 RAG 技术的可运行 notebook 合集，技术食谱书。 | 29,825 | 2026-10-11 |
 | [llm-universe](https://github.com/datawhalechina/llm-universe) | Datawhale 面向小白的中文大模型应用开发教程，压轴项目是完整的 RAG 知识库助手。 | 14,117 | 2026-08-27 |
 | [all-in-rag](https://github.com/datawhalechina/all-in-rag) | Datawhale 出品的 RAG 全栈教程书（中文，在线可读）。 | 12,013 | 2026-09-30 |
 | [production-agentic-rag-course](https://github.com/jamwithai/production-agentic-rag-course) | 实战课程：能在生产环境活下来的 Agentic RAG 模式。 | 9,735 | 2026-06-05 |
@@ -148,6 +148,7 @@ _每周自动刷新，最近一次：2026-10-13。⚠️ = 已归档或沉寂超
 | [jev-doc-search](https://github.com/VectifyAI/jev-doc-search) | 用 Jev 决策 + PageIndex 检索做长文档搜索——决策层浪潮蔓延到文档检索。 | 145 | 2026-10-03 |
 | [jev-rag](https://github.com/aifabrice/jev-rag) | 本地知识搜索：BM25 + Jev 重排 + 带引用回答，零向量依赖。 | 10 | 2026-10-11 |
 | [enowx-rag](https://github.com/enowdev/enowx-rag) | Go 实现的 MCP 服务器，为编码 Agent 提供按项目持久化的 RAG 记忆：Qdrant/pgvector/Chroma、混合检索、重排、内嵌看板。 | 40 | 2026-07-16 |
+| [IHMT-MEMORY](https://github.com/gonzaroman/IHMT-MEMORY) | 把编码 Agent 的长期记忆存成纯文件树（支持 Claude Code/Codex/opencode）——纯文件知识浪潮落到 Agent 记忆上。 | 24 | 2026-10-10 |
 | [jev-reranker](https://github.com/hotchpotch/jev-reranker) | 用 Jev 做 RAG 相关性过滤与重排的 Python 库——决策层浪潮的 RAG 专用工具正在成形。 | 44 | 2026-09-21 |
 | [RAG-Data-Curator-Agent-Skill](https://github.com/leichu0612-byte/RAG-Data-Curator-Agent-Skill) | 结构感知分块（节 → 标题 → 段落 → 句子）打包成 Agent skill + CLI，带溯源元数据和质量报告。 | 86 | 2026-09-11 |
 | [Skill-First-Hybrid-RAG](https://github.com/lyxhnu/Skill-First-Hybrid-RAG) ⚠️ | Skill 优先的 Agent 工作台，skill 证据不足时回退到向量 + BM25 混合检索，自带 Ragas 评测与可编辑的 Markdown 记忆，研究级。 | 95 | 2026-03-24 |
@@ -191,6 +192,13 @@ _未达门槛观察线 — 自动刷新于 2026-10-13。达到完整收录标准
 | [The Fellowship of the Query: Learning Retrieval Actions](https://arxiv.org/abs/2609.28653) | 用轨迹微调让小模型充当 RAG 的下一步动作控制器——分解、检索、改写、验证、停止。把 agentic RAG 命题端到端学出来。 |
 | [Return or Revise? Learning When Revision Helps QA](https://arxiv.org/abs/2609.30087) | 学习检索证据是否值得触发一次修订——返回还是修订的决策由训练习得，而非拍脑袋规则。 |
 | [VeriSpeak](https://arxiv.org/abs/2609.30227) | 面向语音事实核查的探针基准——RAG 的多模态前沿正走出纯文本。 |
+| [Stale-Document Poisoning](https://arxiv.org/abs/2609.31342) | 过期检索证据覆盖模型本来正确的答案——路由的时效轴，被命名并测量。 |
+| [Reasoning-Language Alignment](https://arxiv.org/abs/2610.03136) | 推理语言与提示语言的交互影响 RAG 准确率——双语部署现实必读。 |
+| [DBRAG](https://arxiv.org/abs/2610.07622) | 面向复杂数据库查询的多表 RAG——路由的表格轴被形式化。 |
+| [UNREAL](https://arxiv.org/abs/2610.08463) | 从单个长提示到整个语料库用同一套证据选择机制——长上下文 vs RAG 之争的统一器。 |
+| [Agentic AutoRAG](https://arxiv.org/abs/2610.08452) | 推理驱动的 Agent 自己调优 RAG 管线——超参搜索成了 Agent 的工作。 |
+| [Placebo 对照的文档结构消融](https://arxiv.org/abs/2610.10170) | 四种文档结构处理做安慰剂对照检验——切块正统性需要的那次核查。 |
+| [RIT-RAG](https://arxiv.org/abs/2610.11370) | 检索诱导树让 agentic RAG 锚定文档结构，而非孤立切块。 |
 
 ## 值得了解的基准
 

@@ -7,7 +7,7 @@
       "archived": false
     },
     "infiniflow/ragflow": {
-      "stars": 92069,
+      "stars": 92068,
       "pushed_at": "2026-10-12",
       "archived": false
     },
@@ -67,7 +67,7 @@
       "archived": false
     },
     "NandhaKishorM/laya": {
-      "stars": 32523,
+      "stars": 32524,
       "pushed_at": "2026-10-12",
       "archived": false
     },
@@ -112,12 +112,12 @@
       "archived": false
     },
     "microsoft/markitdown": {
-      "stars": 189764,
+      "stars": 189765,
       "pushed_at": "2026-10-04",
       "archived": false
     },
     "firecrawl/anydoc": {
-      "stars": 22769,
+      "stars": 22770,
       "pushed_at": "2026-08-28",
       "archived": false
     },
@@ -162,7 +162,7 @@
       "archived": false
     },
     "NirDiamant/RAG_Techniques": {
-      "stars": 29824,
+      "stars": 29825,
       "pushed_at": "2026-10-11",
       "archived": false
     },
@@ -259,6 +259,11 @@
     "p10node/docflare-ai": {
       "stars": 39,
       "pushed_at": "2026-10-08",
+      "archived": false
+    },
+    "gonzaroman/IHMT-MEMORY": {
+      "stars": 24,
+      "pushed_at": "2026-10-10",
       "archived": false
     },
     "hotchpotch/jev-reranker": {
