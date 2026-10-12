@@ -1,218 +1,218 @@
 {
-  "generated_at": "2026-10-09",
+  "generated_at": "2026-10-12",
   "repos": {
     "Tencent/WeKnora": {
-      "stars": 32599,
-      "pushed_at": "2026-10-08",
+      "stars": 33411,
+      "pushed_at": "2026-10-12",
       "archived": false
     },
     "infiniflow/ragflow": {
-      "stars": 91839,
-      "pushed_at": "2026-10-08",
+      "stars": 92045,
+      "pushed_at": "2026-10-12",
       "archived": false
     },
     "Cinnamon/kotaemon": {
-      "stars": 25797,
+      "stars": 25799,
       "pushed_at": "2026-07-14",
       "archived": false
     },
     "onyx-dot-app/onyx": {
-      "stars": 32357,
-      "pushed_at": "2026-10-08",
+      "stars": 32413,
+      "pushed_at": "2026-10-12",
       "archived": false
     },
     "vitali87/code-graph-rag": {
-      "stars": 5238,
-      "pushed_at": "2026-10-08",
+      "stars": 5244,
+      "pushed_at": "2026-10-12",
       "archived": false
     },
     "run-llama/rags": {
-      "stars": 6549,
+      "stars": 6548,
       "pushed_at": "2024-04-05",
       "archived": false
     },
     "ragapp/ragapp": {
-      "stars": 4446,
+      "stars": 4443,
       "pushed_at": "2025-01-22",
       "archived": false
     },
     "run-llama/llama_index": {
-      "stars": 52438,
-      "pushed_at": "2026-10-06",
+      "stars": 52471,
+      "pushed_at": "2026-10-08",
       "archived": false
     },
     "langchain-ai/langchain": {
-      "stars": 147571,
-      "pushed_at": "2026-10-08",
+      "stars": 147668,
+      "pushed_at": "2026-10-12",
       "archived": false
     },
     "deepset-ai/haystack": {
-      "stars": 26696,
-      "pushed_at": "2026-10-08",
+      "stars": 26724,
+      "pushed_at": "2026-10-12",
       "archived": false
     },
     "OpenBMB/UltraRAG": {
-      "stars": 5717,
-      "pushed_at": "2026-10-07",
+      "stars": 5719,
+      "pushed_at": "2026-10-12",
       "archived": false
     },
     "Marker-Inc-Korea/AutoRAG": {
-      "stars": 5118,
-      "pushed_at": "2026-10-08",
+      "stars": 5120,
+      "pushed_at": "2026-10-12",
       "archived": false
     },
     "SciPhi-AI/R2R": {
-      "stars": 8012,
+      "stars": 8016,
       "pushed_at": "2025-11-07",
       "archived": false
     },
     "NandhaKishorM/laya": {
-      "stars": 31673,
-      "pushed_at": "2026-10-07",
+      "stars": 32461,
+      "pushed_at": "2026-10-12",
       "archived": false
     },
     "jaredpalmer/kev": {
-      "stars": 8722,
-      "pushed_at": "2026-10-06",
+      "stars": 8979,
+      "pushed_at": "2026-10-11",
       "archived": false
     },
     "TheoLeeCJ/SemIf-OpenJev": {
-      "stars": 4743,
+      "stars": 4788,
       "pushed_at": "2026-09-23",
       "archived": false
     },
     "nokia-applied-research/AnyJev": {
-      "stars": 1112,
+      "stars": 1206,
       "pushed_at": "2026-10-07",
       "archived": false
     },
     "HKUDS/LightRAG": {
-      "stars": 40017,
-      "pushed_at": "2026-10-03",
+      "stars": 40079,
+      "pushed_at": "2026-10-12",
       "archived": false
     },
     "microsoft/graphrag": {
-      "stars": 36263,
-      "pushed_at": "2026-10-08",
+      "stars": 36295,
+      "pushed_at": "2026-10-12",
       "archived": false
     },
     "getzep/graphiti": {
-      "stars": 31558,
-      "pushed_at": "2026-10-07",
+      "stars": 31664,
+      "pushed_at": "2026-10-11",
       "archived": false
     },
     "topoteretes/cognee": {
-      "stars": 31710,
-      "pushed_at": "2026-10-08",
+      "stars": 32076,
+      "pushed_at": "2026-10-12",
       "archived": false
     },
     "gusye1234/nano-graphrag": {
-      "stars": 3993,
+      "stars": 3999,
       "pushed_at": "2026-01-27",
       "archived": false
     },
     "microsoft/markitdown": {
-      "stars": 189197,
+      "stars": 189699,
       "pushed_at": "2026-10-04",
       "archived": false
     },
     "firecrawl/anydoc": {
-      "stars": 22620,
+      "stars": 22752,
       "pushed_at": "2026-08-28",
       "archived": false
     },
     "opendatalab/MinerU": {
-      "stars": 81302,
-      "pushed_at": "2026-10-06",
+      "stars": 81522,
+      "pushed_at": "2026-10-11",
       "archived": false
     },
     "DS4SD/docling": {
-      "stars": 68542,
-      "pushed_at": "2026-10-08",
+      "stars": 68735,
+      "pushed_at": "2026-10-12",
       "archived": false
     },
     "Unstructured-IO/unstructured": {
-      "stars": 15549,
-      "pushed_at": "2026-10-08",
+      "stars": 15559,
+      "pushed_at": "2026-10-10",
       "archived": false
     },
     "StarTrail-org/PixelRAG": {
-      "stars": 10217,
-      "pushed_at": "2026-10-01",
+      "stars": 10256,
+      "pushed_at": "2026-10-08",
       "archived": false
     },
     "vibrantlabsai/ragas": {
-      "stars": 15966,
+      "stars": 16001,
       "pushed_at": "2026-02-24",
       "archived": false
     },
     "confident-ai/deepeval": {
-      "stars": 18704,
-      "pushed_at": "2026-10-07",
+      "stars": 18761,
+      "pushed_at": "2026-10-12",
       "archived": false
     },
     "langfuse/langfuse": {
-      "stars": 35529,
-      "pushed_at": "2026-10-08",
+      "stars": 35687,
+      "pushed_at": "2026-10-12",
       "archived": false
     },
     "Arize-ai/phoenix": {
-      "stars": 11755,
-      "pushed_at": "2026-10-08",
+      "stars": 11805,
+      "pushed_at": "2026-10-12",
       "archived": false
     },
     "NirDiamant/RAG_Techniques": {
-      "stars": 29697,
-      "pushed_at": "2026-09-21",
+      "stars": 29817,
+      "pushed_at": "2026-10-11",
       "archived": false
     },
     "langchain-ai/rag-from-scratch": {
-      "stars": 9472,
+      "stars": 9491,
       "pushed_at": "2025-06-26",
       "archived": false
     },
     "jamwithai/production-agentic-rag-course": {
-      "stars": 9673,
+      "stars": 9733,
       "pushed_at": "2026-06-05",
       "archived": false
     },
     "datawhalechina/all-in-rag": {
-      "stars": 11828,
+      "stars": 11994,
       "pushed_at": "2026-09-30",
       "archived": false
     },
     "datawhalechina/llm-universe": {
-      "stars": 14094,
+      "stars": 14116,
       "pushed_at": "2026-08-27",
       "archived": false
     },
     "DataTalksClub/llm-zoomcamp": {
-      "stars": 7434,
+      "stars": 7455,
       "pushed_at": "2026-09-15",
       "archived": false
     },
     "patchy631/ai-engineering-hub": {
-      "stars": 38255,
+      "stars": 38289,
       "pushed_at": "2026-09-10",
       "archived": false
     },
     "RUC-NLPIR/FlashRAG": {
-      "stars": 3585,
-      "pushed_at": "2026-10-01",
+      "stars": 3590,
+      "pushed_at": "2026-10-12",
       "archived": false
     },
     "Shubhamsaboo/awesome-llm-apps": {
-      "stars": 140979,
+      "stars": 141344,
       "pushed_at": "2026-09-30",
       "archived": false
     },
     "DEEP-PolyU/Awesome-GraphRAG": {
-      "stars": 2668,
+      "stars": 2673,
       "pushed_at": "2026-06-02",
       "archived": false
     },
     "Danielskry/Awesome-RAG": {
-      "stars": 1388,
+      "stars": 1391,
       "pushed_at": "2026-10-06",
       "archived": false
     },
@@ -223,56 +223,56 @@
     },
     "lizhe2004/Awesome-LLM-RAG-Application": {
       "stars": 1662,
-      "pushed_at": "2026-03-10",
+      "pushed_at": "2026-10-12",
       "archived": false
     },
     "WangRongsheng/awesome-LLM-resources": {
-      "stars": 9010,
+      "stars": 9014,
       "pushed_at": "2026-10-07",
       "archived": false
     },
     "Meirtz/Awesome-Context-Engineering": {
-      "stars": 3319,
+      "stars": 3324,
       "pushed_at": "2026-05-28",
       "archived": false
     },
     "Xnhyacinth/Awesome-LLM-Long-Context-Modeling": {
-      "stars": 2177,
+      "stars": 2179,
       "pushed_at": "2026-08-17",
       "archived": false
     },
     "hymie122/RAG-Survey": {
-      "stars": 1790,
+      "stars": 1789,
       "pushed_at": "2024-08-20",
       "archived": false
     },
     "VectifyAI/jev-doc-search": {
-      "stars": 120,
+      "stars": 145,
       "pushed_at": "2026-10-03",
       "archived": false
     },
     "AbdoslamB/InkDoc": {
-      "stars": 53,
+      "stars": 54,
       "pushed_at": "2026-10-03",
       "archived": false
     },
     "p10node/docflare-ai": {
-      "stars": 22,
+      "stars": 39,
       "pushed_at": "2026-10-08",
       "archived": false
     },
     "hotchpotch/jev-reranker": {
-      "stars": 42,
+      "stars": 44,
       "pushed_at": "2026-09-21",
       "archived": false
     },
     "aifabrice/jev-rag": {
-      "stars": 9,
-      "pushed_at": "2026-10-07",
+      "stars": 10,
+      "pushed_at": "2026-10-11",
       "archived": false
     },
     "ConardLi/rag-skill": {
-      "stars": 715,
+      "stars": 717,
       "pushed_at": "2026-04-25",
       "archived": false
     },
@@ -282,7 +282,7 @@
       "archived": false
     },
     "Jia-Hong-Peng/rag-to-skill": {
-      "stars": 68,
+      "stars": 67,
       "pushed_at": "2026-05-10",
       "archived": false
     },
