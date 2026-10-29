@@ -1,5 +1,7 @@
 # 企业知识库实践手册（v0.1）：从选型路由到知识形态
 
+> 姊妹篇：[enterprise-kb-ops-playbook.md](./enterprise-kb-ops-playbook.md)——本篇管"建什么"，那篇管"怎么上线、验收、扛住生产"。
+
 > **English abstract** — Enterprises are confused about knowledge bases not because products lack capability but because selection logic is missing: material and queries differ per department. This playbook gives (1) a routing table — material type × query type → architecture; (2) a knowledge-forms view — what shape organized knowledge should take (RAG / FAQ / Wiki / Graph / Tree / PageIndex / MindMap / Timeline / Skills / PageCard); (3) five practice principles; (4) vendor evidence that the market is already voting for this thesis. All sources cited at the end. Living document — corrections via PR.
 
 ## 一、问题：部门异质性
