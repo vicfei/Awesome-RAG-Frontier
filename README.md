@@ -6,7 +6,7 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![refreshed](https://img.shields.io/badge/refreshed-2026--10--26-2ea44f)](.github/workflows/refresh.yml)
+[![refreshed](https://img.shields.io/badge/refreshed-2026--11--02-2ea44f)](.github/workflows/refresh.yml)
 [![tracked](https://img.shields.io/badge/projects--tracked-49-blue)](data/projects.json)
 
 [English](README.md) · [简体中文](README.zh-CN.md)
@@ -43,92 +43,92 @@ A short, dated, sourced changelog of what shipped — start with [news/2026-09.m
 
 | Project | Why it matters | Stars | Last push |
 | --- | --- | :--: | :--: |
-| [ragflow](https://github.com/infiniflow/ragflow) | Deep-document-understanding RAG engine; strongest-in-class parsing and explainable citations. | 92,886 | 2026-10-26 |
-| [WeKnora](https://github.com/Tencent/WeKnora) | Tencent's open-source LLM knowledge platform: hybrid retrieval + rerank, parent-child chunking, GraphRAG, agent skills in sandboxes, self-maintaining wiki. Go, MIT. | 35,475 | 2026-10-26 |
-| [onyx](https://github.com/onyx-dot-app/onyx) | Enterprise search assistant (ex-Danswer): 40+ data-source connectors + RAG chat over them. | 32,991 | 2026-10-25 |
-| [kotaemon](https://github.com/Cinnamon/kotaemon) | Clean document-chat web UI for RAG (and GraphRAG) workflows; great for demos and internal tools. | 25,829 | 2026-07-14 |
-| [rags](https://github.com/run-llama/rags) ⚠️ | ChatGPT-over-your-data defined in natural language, on LlamaIndex. | 6,545 | 2024-04-05 |
-| [code-graph-rag](https://github.com/vitali87/code-graph-rag) | Code-graph RAG for monorepos: query, understand, and edit multi-language codebases. | 5,284 | 2026-10-26 |
-| [ragapp](https://github.com/ragapp/ragapp) ⚠️ | Opinionated agentic RAG app for enterprises; Docker-simple deployment. | 4,443 | 2025-01-22 |
+| [ragflow](https://github.com/infiniflow/ragflow) | Deep-document-understanding RAG engine; strongest-in-class parsing and explainable citations. | 93,346 | 2026-11-02 |
+| [WeKnora](https://github.com/Tencent/WeKnora) | Tencent's open-source LLM knowledge platform: hybrid retrieval + rerank, parent-child chunking, GraphRAG, agent skills in sandboxes, self-maintaining wiki. Go, MIT. | 36,242 | 2026-11-02 |
+| [onyx](https://github.com/onyx-dot-app/onyx) | Enterprise search assistant (ex-Danswer): 40+ data-source connectors + RAG chat over them. | 33,164 | 2026-11-02 |
+| [kotaemon](https://github.com/Cinnamon/kotaemon) | Clean document-chat web UI for RAG (and GraphRAG) workflows; great for demos and internal tools. | 25,848 | 2026-07-14 |
+| [rags](https://github.com/run-llama/rags) ⚠️ | ChatGPT-over-your-data defined in natural language, on LlamaIndex. | 6,548 | 2024-04-05 |
+| [code-graph-rag](https://github.com/vitali87/code-graph-rag) | Code-graph RAG for monorepos: query, understand, and edit multi-language codebases. | 5,307 | 2026-11-02 |
+| [ragapp](https://github.com/ragapp/ragapp) ⚠️ | Opinionated agentic RAG app for enterprises; Docker-simple deployment. | 4,444 | 2025-01-22 |
 
 ### Frameworks & engines
 
 | Project | Why it matters | Stars | Last push |
 | --- | --- | :--: | :--: |
-| [langchain](https://github.com/langchain-ai/langchain) | General LLM toolkit with the largest integration ecosystem; RAG chains included. | 148,478 | 2026-10-26 |
-| [llama_index](https://github.com/run-llama/llama_index) | The data framework for LLM applications: ingestion, indexing, and retrieval primitives most RAG stacks build on. | 52,668 | 2026-10-23 |
-| [haystack](https://github.com/deepset-ai/haystack) | Typed, explicit-component pipelines for production RAG; strong retrieval pedigree. | 26,845 | 2026-10-24 |
-| [R2R](https://github.com/SciPhi-AI/R2R) ⚠️ | Production RAG engine with API, dashboard, and agentic retrieval out of the box. | 8,042 | 2025-11-07 |
-| [UltraRAG](https://github.com/OpenBMB/UltraRAG) | Low-code, MCP-based framework for composing complex RAG pipelines. | 5,732 | 2026-10-26 |
-| [AutoRAG](https://github.com/Marker-Inc-Korea/AutoRAG) | Auto-optimizing RAG: searches modules and parameters against your own eval data. | 5,194 | 2026-10-26 |
+| [langchain](https://github.com/langchain-ai/langchain) | General LLM toolkit with the largest integration ecosystem; RAG chains included. | 148,875 | 2026-11-02 |
+| [llama_index](https://github.com/run-llama/llama_index) | The data framework for LLM applications: ingestion, indexing, and retrieval primitives most RAG stacks build on. | 52,778 | 2026-10-26 |
+| [haystack](https://github.com/deepset-ai/haystack) | Typed, explicit-component pipelines for production RAG; strong retrieval pedigree. | 26,909 | 2026-11-02 |
+| [R2R](https://github.com/SciPhi-AI/R2R) ⚠️ | Production RAG engine with API, dashboard, and agentic retrieval out of the box. | 8,055 | 2025-11-07 |
+| [UltraRAG](https://github.com/OpenBMB/UltraRAG) | Low-code, MCP-based framework for composing complex RAG pipelines. | 5,738 | 2026-11-02 |
+| [AutoRAG](https://github.com/Marker-Inc-Korea/AutoRAG) | Auto-optimizing RAG: searches modules and parameters against your own eval data. | 5,255 | 2026-11-01 |
 
 ### Decision layer (filter · rerank · route)
 
 | Project | Why it matters | Stars | Last push |
 | --- | --- | :--: | :--: |
-| [laya](https://github.com/NandhaKishorM/laya) | Open-source System-1 decision engine: typed choice/score/yes-no over any text — the open answer to decision-only models, 31k★ in three weeks. | 34,340 | 2026-10-26 |
-| [kev](https://github.com/jaredpalmer/kev) | Open Jev-like decision models on Qwen 3.5/3.8 you can train and self-host — rerank/filter/route without API lock-in. | 9,537 | 2026-10-23 |
-| [SemIf-OpenJev](https://github.com/TheoLeeCJ/SemIf-OpenJev) | Semantic ifs from open models on a single 3090 — decision primitives you can run at home, independent of Jev. | 4,885 | 2026-09-23 |
-| [AnyJev](https://github.com/nokia-applied-research/AnyJev) | Nokia Applied Research: turn any LLM into a Jev-style decision model — typed decisions, real probabilities, no training. Apache-2.0. | 1,485 | 2026-10-21 |
+| [laya](https://github.com/NandhaKishorM/laya) | Open-source System-1 decision engine: typed choice/score/yes-no over any text — the open answer to decision-only models, 31k★ in three weeks. | 34,859 | 2026-11-01 |
+| [kev](https://github.com/jaredpalmer/kev) | Open Jev-like decision models on Qwen 3.5/3.8 you can train and self-host — rerank/filter/route without API lock-in. | 9,760 | 2026-10-27 |
+| [SemIf-OpenJev](https://github.com/TheoLeeCJ/SemIf-OpenJev) | Semantic ifs from open models on a single 3090 — decision primitives you can run at home, independent of Jev. | 4,919 | 2026-09-23 |
+| [AnyJev](https://github.com/nokia-applied-research/AnyJev) | Nokia Applied Research: turn any LLM into a Jev-style decision model — typed decisions, real probabilities, no training. Apache-2.0. | 1,551 | 2026-10-21 |
 
 ### GraphRAG & knowledge graphs
 
 | Project | Why it matters | Stars | Last push |
 | --- | --- | :--: | :--: |
-| [LightRAG](https://github.com/HKUDS/LightRAG) | Simple and fast GraphRAG (EMNLP 2025): dual-level graph + vector retrieval. | 40,337 | 2026-10-22 |
-| [graphrag](https://github.com/microsoft/graphrag) | The library that named GraphRAG: LLM-derived knowledge graphs for corpus-level questions. | 36,448 | 2026-10-26 |
-| [cognee](https://github.com/topoteretes/cognee) | Memory engine that turns data into knowledge graphs for retrieval-augmented agents. | 32,763 | 2026-10-23 |
-| [graphiti](https://github.com/getzep/graphiti) | Temporal knowledge graphs for agent memory (Zep); edges carry bi-temporal validity. | 32,228 | 2026-10-26 |
-| [nano-graphrag](https://github.com/gusye1234/nano-graphrag) ⚠️ | Minimal, hackable GraphRAG reference implementation — read this to understand the pattern. | 4,004 | 2026-01-27 |
+| [LightRAG](https://github.com/HKUDS/LightRAG) | Simple and fast GraphRAG (EMNLP 2025): dual-level graph + vector retrieval. | 40,484 | 2026-10-29 |
+| [graphrag](https://github.com/microsoft/graphrag) | The library that named GraphRAG: LLM-derived knowledge graphs for corpus-level questions. | 36,529 | 2026-11-02 |
+| [cognee](https://github.com/topoteretes/cognee) | Memory engine that turns data into knowledge graphs for retrieval-augmented agents. | 33,001 | 2026-11-02 |
+| [graphiti](https://github.com/getzep/graphiti) | Temporal knowledge graphs for agent memory (Zep); edges carry bi-temporal validity. | 32,436 | 2026-11-01 |
+| [nano-graphrag](https://github.com/gusye1234/nano-graphrag) ⚠️ | Minimal, hackable GraphRAG reference implementation — read this to understand the pattern. | 4,006 | 2026-01-27 |
 
 ### Document parsing & multimodal ingestion
 
 | Project | Why it matters | Stars | Last push |
 | --- | --- | :--: | :--: |
-| [markitdown](https://github.com/microsoft/markitdown) | Microsoft's swiss-army converter: Office / PDF / audio / images → Markdown; the default glue in countless LLM ingestion scripts. | 192,255 | 2026-10-23 |
-| [MinerU](https://github.com/opendatalab/MinerU) | PDF/scans → markdown/JSON extraction that survives ugly layouts; the parsing layer many RAG stacks now default to. | 82,503 | 2026-10-26 |
-| [docling](https://github.com/DS4SD/docling) | IBM's document parsing library: rich structure, tables, and layout understanding. | 69,597 | 2026-10-25 |
-| [anydoc](https://github.com/firecrawl/anydoc) | Firecrawl's high-fidelity document conversion engine (Word / PPT / Excel / EPUB / PDF → clean output); also the in-process parser inside WeKnora. | 23,118 | 2026-10-23 |
-| [unstructured](https://github.com/Unstructured-IO/unstructured) | The ingest-layer standard: any document format → clean typed elements. | 15,625 | 2026-10-25 |
-| [PixelRAG](https://github.com/StarTrail-org/PixelRAG) | Pixel-level RAG (arXiv:2606.28344): retrieve over rendered pixels, skip text parsing entirely. | 10,353 | 2026-10-24 |
+| [markitdown](https://github.com/microsoft/markitdown) | Microsoft's swiss-army converter: Office / PDF / audio / images → Markdown; the default glue in countless LLM ingestion scripts. | 193,489 | 2026-10-28 |
+| [MinerU](https://github.com/opendatalab/MinerU) | PDF/scans → markdown/JSON extraction that survives ugly layouts; the parsing layer many RAG stacks now default to. | 82,987 | 2026-10-31 |
+| [docling](https://github.com/DS4SD/docling) | IBM's document parsing library: rich structure, tables, and layout understanding. | 69,993 | 2026-11-01 |
+| [anydoc](https://github.com/firecrawl/anydoc) | Firecrawl's high-fidelity document conversion engine (Word / PPT / Excel / EPUB / PDF → clean output); also the in-process parser inside WeKnora. | 23,309 | 2026-10-23 |
+| [unstructured](https://github.com/Unstructured-IO/unstructured) | The ingest-layer standard: any document format → clean typed elements. | 15,670 | 2026-11-02 |
+| [PixelRAG](https://github.com/StarTrail-org/PixelRAG) | Pixel-level RAG (arXiv:2606.28344): retrieve over rendered pixels, skip text parsing entirely. | 10,825 | 2026-10-30 |
 
 ### Evaluation & observability
 
 | Project | Why it matters | Stars | Last push |
 | --- | --- | :--: | :--: |
-| [langfuse](https://github.com/langfuse/langfuse) | Open-source LLM observability: trace RAG pipelines end-to-end, evaluate traces. | 36,501 | 2026-10-26 |
-| [deepeval](https://github.com/confident-ai/deepeval) | LLM evaluation framework with RAG metrics, pytest-style, LLM-as-judge included. | 19,108 | 2026-10-23 |
-| [ragas](https://github.com/vibrantlabsai/ragas) ⚠️ | De-facto RAG evaluation SDK: faithfulness, answer relevance, context precision/recall. | 16,151 | 2026-02-24 |
-| [phoenix](https://github.com/Arize-ai/phoenix) | Tracing + evals for LLM/agent apps; retrieval-span analysis included. | 12,006 | 2026-10-26 |
+| [langfuse](https://github.com/langfuse/langfuse) | Open-source LLM observability: trace RAG pipelines end-to-end, evaluate traces. | 36,873 | 2026-11-02 |
+| [deepeval](https://github.com/confident-ai/deepeval) | LLM evaluation framework with RAG metrics, pytest-style, LLM-as-judge included. | 19,244 | 2026-11-02 |
+| [ragas](https://github.com/vibrantlabsai/ragas) ⚠️ | De-facto RAG evaluation SDK: faithfulness, answer relevance, context precision/recall. | 16,215 | 2026-02-24 |
+| [phoenix](https://github.com/Arize-ai/phoenix) | Tracing + evals for LLM/agent apps; retrieval-span analysis included. | 12,100 | 2026-11-01 |
 
 ### Research playgrounds & courses
 
 | Project | Why it matters | Stars | Last push |
 | --- | --- | :--: | :--: |
-| [ai-engineering-hub](https://github.com/patchy631/ai-engineering-hub) | Notebook-heavy tutorial hub (LLM / RAG / agents); RAG is a headline pillar, not a footnote. | 38,436 | 2026-10-12 |
-| [RAG_Techniques](https://github.com/NirDiamant/RAG_Techniques) | 60+ RAG techniques as runnable notebooks — the technique cookbook. | 30,008 | 2026-10-22 |
-| [llm-universe](https://github.com/datawhalechina/llm-universe) | Datawhale's beginner Chinese course for LLM app development; the capstone is a full RAG knowledge-base assistant. | 14,207 | 2026-08-27 |
-| [all-in-rag](https://github.com/datawhalechina/all-in-rag) | Datawhale's full-stack Chinese RAG tutorial book (online-readable). | 12,555 | 2026-09-30 |
-| [production-agentic-rag-course](https://github.com/jamwithai/production-agentic-rag-course) | Hands-on course: agentic RAG patterns that survive production. | 9,980 | 2026-06-05 |
-| [rag-from-scratch](https://github.com/langchain-ai/rag-from-scratch) ⚠️ | LangChain's 'RAG from scratch' series as incremental code. | 9,542 | 2025-06-26 |
-| [llm-zoomcamp](https://github.com/DataTalksClub/llm-zoomcamp) | Free hands-on LLM engineering course; vector search, RAG, and RAG evaluation are the core modules. | 7,527 | 2026-10-26 |
-| [FlashRAG](https://github.com/RUC-NLPIR/FlashRAG) | Modular RAG research toolkit: 40+ methods, reproducible benchmark runs. | 3,599 | 2026-10-12 |
+| [ai-engineering-hub](https://github.com/patchy631/ai-engineering-hub) | Notebook-heavy tutorial hub (LLM / RAG / agents); RAG is a headline pillar, not a footnote. | 40,788 | 2026-11-01 |
+| [RAG_Techniques](https://github.com/NirDiamant/RAG_Techniques) | 60+ RAG techniques as runnable notebooks — the technique cookbook. | 30,187 | 2026-11-02 |
+| [llm-universe](https://github.com/datawhalechina/llm-universe) | Datawhale's beginner Chinese course for LLM app development; the capstone is a full RAG knowledge-base assistant. | 14,250 | 2026-08-27 |
+| [all-in-rag](https://github.com/datawhalechina/all-in-rag) | Datawhale's full-stack Chinese RAG tutorial book (online-readable). | 12,796 | 2026-09-30 |
+| [production-agentic-rag-course](https://github.com/jamwithai/production-agentic-rag-course) | Hands-on course: agentic RAG patterns that survive production. | 10,024 | 2026-06-05 |
+| [rag-from-scratch](https://github.com/langchain-ai/rag-from-scratch) ⚠️ | LangChain's 'RAG from scratch' series as incremental code. | 9,580 | 2025-06-26 |
+| [llm-zoomcamp](https://github.com/DataTalksClub/llm-zoomcamp) | Free hands-on LLM engineering course; vector search, RAG, and RAG evaluation are the core modules. | 7,556 | 2026-10-26 |
+| [FlashRAG](https://github.com/RUC-NLPIR/FlashRAG) | Modular RAG research toolkit: 40+ methods, reproducible benchmark runs. | 3,603 | 2026-10-27 |
 
 ### Peer lists we trust
 
 | Project | Why it matters | Stars | Last push |
 | --- | --- | :--: | :--: |
-| [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps) | 100+ runnable AI agent and RAG app templates; the biggest 'awesome' in the space. | 143,082 | 2026-10-22 |
-| [awesome-LLM-resources](https://github.com/WangRongsheng/awesome-LLM-resources) | Bilingual LLM full-stack resource map; RAG is one strong section. | 9,041 | 2026-10-20 |
-| [Awesome-Context-Engineering](https://github.com/Meirtz/Awesome-Context-Engineering) | Context-engineering survey list — the adjacent frontier where RAG is heading. | 3,330 | 2026-05-28 |
-| [Awesome-GraphRAG](https://github.com/DEEP-PolyU/Awesome-GraphRAG) | Survey-backed GraphRAG paper list; the best-maintained academic tracker in this niche. | 2,681 | 2026-06-02 |
+| [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps) | 100+ runnable AI agent and RAG app templates; the biggest 'awesome' in the space. | 143,716 | 2026-10-22 |
+| [awesome-LLM-resources](https://github.com/WangRongsheng/awesome-LLM-resources) | Bilingual LLM full-stack resource map; RAG is one strong section. | 9,063 | 2026-11-01 |
+| [Awesome-Context-Engineering](https://github.com/Meirtz/Awesome-Context-Engineering) | Context-engineering survey list — the adjacent frontier where RAG is heading. | 3,334 | 2026-05-28 |
+| [Awesome-GraphRAG](https://github.com/DEEP-PolyU/Awesome-GraphRAG) | Survey-backed GraphRAG paper list; the best-maintained academic tracker in this niche. | 2,683 | 2026-06-02 |
 | [Awesome-LLM-Long-Context-Modeling](https://github.com/Xnhyacinth/Awesome-LLM-Long-Context-Modeling) | Long-context modeling list — the other half of the long-context-vs-RAG debate. | 2,187 | 2026-10-26 |
-| [RAG-Survey](https://github.com/hymie122/RAG-Survey) ⚠️ | RAG paper taxonomy (foundations / enhancement / task) with a companion survey. | 1,787 | 2024-08-20 |
-| [Awesome-LLM-RAG-Application](https://github.com/lizhe2004/Awesome-LLM-RAG-Application) | Chinese-language RAG list strong on industry case studies (QCon/AICon talks). | 1,663 | 2026-10-12 |
-| [Awesome-RAG](https://github.com/Danielskry/Awesome-RAG) | Engineering-oriented RAG resource map: patterns, tools, production notes. | 1,414 | 2026-10-06 |
-| [Awesome-LLM-RAG](https://github.com/jxzhangjhu/Awesome-LLM-RAG) | Paper-first RAG list organized by research theme. | 1,369 | 2026-10-24 |
+| [RAG-Survey](https://github.com/hymie122/RAG-Survey) ⚠️ | RAG paper taxonomy (foundations / enhancement / task) with a companion survey. | 1,788 | 2024-08-20 |
+| [Awesome-LLM-RAG-Application](https://github.com/lizhe2004/Awesome-LLM-RAG-Application) | Chinese-language RAG list strong on industry case studies (QCon/AICon talks). | 1,664 | 2026-10-12 |
+| [Awesome-RAG](https://github.com/Danielskry/Awesome-RAG) | Engineering-oriented RAG resource map: patterns, tools, production notes. | 1,420 | 2026-10-06 |
+| [Awesome-LLM-RAG](https://github.com/jxzhangjhu/Awesome-LLM-RAG) | Paper-first RAG list organized by research theme. | 1,370 | 2026-10-31 |
 
-_Auto-refreshed weekly — last refresh 2026-10-26. ⚠️ = archived or dormant >6 months. Raw stats: [data/stats.json](data/stats.json)._
+_Auto-refreshed weekly — last refresh 2026-11-02. ⚠️ = archived or dormant >6 months. Raw stats: [data/stats.json](data/stats.json)._
 
 <!-- frontier:projects:end -->
 
@@ -142,20 +142,20 @@ Promising entries that don't clear the bar yet — typically early-stage or sing
 
 | Project | Why it's on the radar | Stars | Last push |
 | --- | --- | :--: | :--: |
-| [InkDoc](https://github.com/AbdoslamB/InkDoc) | Local desktop app turning documents into AI-ready Markdown on top of MarkItDown and Docling — parsing made one-click. | 57 | 2026-10-15 |
-| [rag-skill](https://github.com/ConardLi/rag-skill) ⚠️ | The spark of the RAG-as-skill wave: local knowledge retrieval via hierarchical index files + grep + progressive disclosure — no vectors, no embeddings. Archived; successor: garden-skills. | 723 | 2026-04-25 |
+| [InkDoc](https://github.com/AbdoslamB/InkDoc) | Local desktop app turning documents into AI-ready Markdown on top of MarkItDown and Docling — parsing made one-click. | 59 | 2026-11-01 |
+| [rag-skill](https://github.com/ConardLi/rag-skill) ⚠️ | The spark of the RAG-as-skill wave: local knowledge retrieval via hierarchical index files + grep + progressive disclosure — no vectors, no embeddings. Archived; successor: garden-skills. | 724 | 2026-04-25 |
 | [rag-to-skill](https://github.com/Jia-Hong-Peng/rag-to-skill) | Converts JSONL RAG corpora into installable, auditable Claude Code skills — runtime retrieval replaced by a curated, source-anchored knowledge pack. | 67 | 2026-05-10 |
-| [jev-doc-search](https://github.com/VectifyAI/jev-doc-search) | Long-document search combining Jev decisions with PageIndex retrieval — the decision-layer wave reaching document search. | 156 | 2026-10-03 |
-| [jev-rag](https://github.com/aifabrice/jev-rag) | Local knowledge search with BM25 + Jev reranking and cited answers — zero vector dependencies. | 13 | 2026-10-25 |
-| [enowx-rag](https://github.com/enowdev/enowx-rag) | Go MCP server giving coding agents persistent per-project RAG memory: Qdrant/pgvector/Chroma, hybrid retrieval, rerank, embedded dashboard. | 41 | 2026-07-16 |
-| [IHMT-MEMORY](https://github.com/gonzaroman/IHMT-MEMORY) | Long-term memory for coding agents (Claude Code, Codex, opencode) as a tree of plain files — the plain-files knowledge wave applied to agent memory. | 38 | 2026-10-15 |
+| [jev-doc-search](https://github.com/VectifyAI/jev-doc-search) | Long-document search combining Jev decisions with PageIndex retrieval — the decision-layer wave reaching document search. | 160 | 2026-10-03 |
+| [jev-rag](https://github.com/aifabrice/jev-rag) | Local knowledge search with BM25 + Jev reranking and cited answers — zero vector dependencies. | 17 | 2026-11-01 |
+| [enowx-rag](https://github.com/enowdev/enowx-rag) | Go MCP server giving coding agents persistent per-project RAG memory: Qdrant/pgvector/Chroma, hybrid retrieval, rerank, embedded dashboard. | 40 | 2026-10-30 |
+| [IHMT-MEMORY](https://github.com/gonzaroman/IHMT-MEMORY) | Long-term memory for coding agents (Claude Code, Codex, opencode) as a tree of plain files — the plain-files knowledge wave applied to agent memory. | 37 | 2026-10-15 |
 | [jev-reranker](https://github.com/hotchpotch/jev-reranker) | Jev-powered relevance filtering and reranking for RAG in Python — the decision-layer wave's RAG-specific toolkit taking shape. | 50 | 2026-09-21 |
-| [RAG-Data-Curator-Agent-Skill](https://github.com/leichu0612-byte/RAG-Data-Curator-Agent-Skill) | Structure-aware chunking (section → heading → paragraph → sentence) packaged as an agent skill + CLI, with provenance metadata and quality reports. | 84 | 2026-09-11 |
+| [RAG-Data-Curator-Agent-Skill](https://github.com/leichu0612-byte/RAG-Data-Curator-Agent-Skill) | Structure-aware chunking (section → heading → paragraph → sentence) packaged as an agent skill + CLI, with provenance metadata and quality reports. | 85 | 2026-09-11 |
 | [Skill-First-Hybrid-RAG](https://github.com/lyxhnu/Skill-First-Hybrid-RAG) ⚠️ | Skill-first agent workbench that falls back to vector + BM25 retrieval when skill evidence misses; ships Ragas evals and editable Markdown memory. Research-grade. | 95 | 2026-03-24 |
-| [docflare-ai](https://github.com/p10node/docflare-ai) | Docs chat and site search as one <script> tag, fully on Cloudflare's free tier (Workers AI + Vectorize + D1). | 42 | 2026-10-08 |
+| [docflare-ai](https://github.com/p10node/docflare-ai) | Docs chat and site search as one <script> tag, fully on Cloudflare's free tier (Workers AI + Vectorize + D1). | 44 | 2026-10-08 |
 | [jev-rag-zh-benchmark](https://github.com/vicfei/jev-rag-zh-benchmark) | First reproducible Chinese reranking benchmark for Jev (C-MTEB/T2Reranking hard negatives): +13.3 nDCG@5 over BM25 with confidence intervals, frozen protocol, full per-call logs. Maintainer's own project — disclosed. | 0 | 2026-10-22 |
 
-_Pre-threshold watchlist — auto-refreshed 2026-10-26. Entries graduate to the main tables once they meet the full criteria (criteria.md)._
+_Pre-threshold watchlist — auto-refreshed 2026-11-02. Entries graduate to the main tables once they meet the full criteria (criteria.md)._
 
 <!-- frontier:radar:end -->
 
