@@ -188,6 +188,7 @@ _未达门槛观察线 — 自动刷新于 2026-11-02。达到完整收录标准
 
 | 论文 | 为什么值得关注 |
 | --- | --- |
+| [SPARK](https://arxiv.org/abs/2606.27786) | 不去编辑参数知识，而是用约 0.01% 额外参数的策略在每个解码步调节各 FFN 子层的参与度，冻结主干也能忠于检索证据——上下文与记忆的冲突从『编辑』变成『调控』。 |
 | [PixelRAG](https://arxiv.org/abs/2606.28344) | 在渲染像素上检索——『解析可选』的 RAG。仓库已破 1 万 star。 |
 | [The Fellowship of the Query: Learning Retrieval Actions](https://arxiv.org/abs/2609.28653) | 用轨迹微调让小模型充当 RAG 的下一步动作控制器——分解、检索、改写、验证、停止。把 agentic RAG 命题端到端学出来。 |
 | [Return or Revise? Learning When Revision Helps QA](https://arxiv.org/abs/2609.30087) | 学习检索证据是否值得触发一次修订——返回还是修订的决策由训练习得，而非拍脑袋规则。 |
