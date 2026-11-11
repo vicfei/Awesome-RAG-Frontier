@@ -188,6 +188,7 @@ Curated by hand; fed weekly by the arXiv digest drafts in [`news/_drafts/`](news
 
 | Paper | Why it's on the radar |
 | --- | --- |
+| [SPARK](https://arxiv.org/abs/2606.27786) | Keeps a frozen LLM faithful to retrieved evidence by learning, at every decoding step, how much each FFN sublayer's parametric knowledge participates (~0.01% extra parameters) — context–memory conflicts get regulated instead of edited out. |
 | [PixelRAG](https://arxiv.org/abs/2606.28344) | Retrieval over rendered pixels — parsing-optional RAG. Repo already crossed 10k stars. |
 | [The Fellowship of the Query: Learning Retrieval Actions](https://arxiv.org/abs/2609.28653) | Trajectory-fine-tunes small LMs as next-action controllers for RAG — decompose, search, reformulate, verify, stop. The agentic-RAG thesis, learned end to end. |
 | [Return or Revise? Learning When Revision Helps Retrieval-Augmented QA](https://arxiv.org/abs/2609.30087) | Learns whether retrieved evidence is worth a revision — the return-vs-revise decision, trained instead of heuristic. |
